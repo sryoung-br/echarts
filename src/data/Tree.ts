@@ -40,11 +40,13 @@ type TreeTraverseOption = {
     attr?: 'children' | 'viewChildren'
 };
 
-interface TreeNodeOption extends Pick<OptionDataItemObject<OptionDataValue>, 'name' | 'value'> {
+interface TreeNodeOption extends Pick<OptionDataItemObject<OptionDataValue>, 'name' | 'value' | 'id'> {
     children?: TreeNodeOption[];
 }
 
 export class TreeNode {
+    id: string | number;
+
     name: string;
 
     depth: number = 0;
@@ -69,10 +71,12 @@ export class TreeNode {
 
     readonly hostTree: Tree<Model>;
 
-    constructor(name: string, hostTree: Tree<Model>) {
+    constructor(name: string, hostTree: Tree<Model>, id: string | number) {
         this.name = name || '';
 
         this.hostTree = hostTree;
+
+        this.id = id;
     }
     /**
      * The node is removed.
@@ -431,7 +435,7 @@ class Tree<HostModel extends Model = Model, LevelOption = any> {
 
             listData.push(dataNode);
 
-            const node = new TreeNode(convertOptionIdName(dataNode.name, ''), tree);
+            const node = new TreeNode(convertOptionIdName(dataNode.name, ''), tree, dataNode.id);
             parentNode
                 ? addChild(node, parentNode)
                 : (tree.root = node);

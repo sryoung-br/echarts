@@ -171,7 +171,7 @@ class SunburstSeriesModel extends SeriesModel<SunburstSeriesOption> {
 
     getInitialData(option: SunburstSeriesOption, ecModel: GlobalModel) {
         // Create a virtual root.
-        const root = { name: option.name, children: option.data } as SunburstSeriesNodeItemOption;
+        const root = { id: option.id, name: option.name, children: option.data } as SunburstSeriesNodeItemOption;
 
         completeTreeValue(root);
 
