@@ -17,9 +17,9 @@
 * under the License.
 */
 
-import ZRText, { TextProps, TextStyleProps } from 'zrender/src/graphic/Text';
-import { Dictionary } from 'zrender/src/core/types';
-import Element, { ElementTextConfig } from 'zrender/src/Element';
+import ZRText, { TextProps, TextStyleProps } from '@sryoung-br/zrender/src/graphic/Text';
+import { Dictionary } from '@sryoung-br/zrender/src/core/types';
+import Element, { ElementTextConfig } from '@sryoung-br/zrender/src/Element';
 import Model from '../model/Model';
 import {
     LabelOption,
@@ -33,7 +33,7 @@ import {
     InterpolatableValue
 } from '../util/types';
 import GlobalModel from '../model/Global';
-import { isFunction, retrieve2, extend, keys, trim } from 'zrender/src/core/util';
+import { isFunction, retrieve2, extend, keys, trim } from '@sryoung-br/zrender/src/core/util';
 import { SPECIAL_STATES, DISPLAY_STATES } from '../util/states';
 import { deprecateReplaceLog } from '../util/log';
 import { makeInner, interpolateRawValues } from '../util/model';

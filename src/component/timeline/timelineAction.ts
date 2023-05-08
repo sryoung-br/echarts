@@ -19,7 +19,7 @@
 
 import GlobalModel from '../../model/Global';
 import TimelineModel from './TimelineModel';
-import { defaults } from 'zrender/src/core/util';
+import { defaults } from '@sryoung-br/zrender/src/core/util';
 import { Payload } from '../../util/types';
 import { EChartsExtensionInstallRegisters } from '../../extension';
 import ExtensionAPI from '../../core/ExtensionAPI';

@@ -21,10 +21,10 @@
 // ??? refactor? check the outer usage of data provider.
 // merge with defaultDimValueGetter?
 
-import {isTypedArray, extend, assert, each, isObject, bind} from 'zrender/src/core/util';
+import {isTypedArray, extend, assert, each, isObject, bind} from '@sryoung-br/zrender/src/core/util';
 import {getDataItemValue} from '../../util/model';
 import { createSourceFromSeriesDataOption, Source, isSourceInstance } from '../Source';
-import {ArrayLike, Dictionary} from 'zrender/src/core/types';
+import {ArrayLike, Dictionary} from '@sryoung-br/zrender/src/core/types';
 import {
     SOURCE_FORMAT_ORIGINAL,
     SOURCE_FORMAT_OBJECT_ROWS,

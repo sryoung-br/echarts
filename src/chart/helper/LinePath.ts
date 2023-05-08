@@ -22,8 +22,8 @@
  */
 
 import * as graphic from '../../util/graphic';
-import * as vec2 from 'zrender/src/core/vector';
-import { PathProps } from 'zrender/src/graphic/Path';
+import * as vec2 from '@sryoung-br/zrender/src/core/vector';
+import { PathProps } from '@sryoung-br/zrender/src/graphic/Path';
 import { ColorString } from '../../util/types';
 
 const straightLineProto = graphic.Line.prototype;

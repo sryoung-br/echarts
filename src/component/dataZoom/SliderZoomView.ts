@@ -17,8 +17,8 @@
 * under the License.
 */
 
-import {bind, each, isFunction, isString, indexOf} from 'zrender/src/core/util';
-import * as eventTool from 'zrender/src/core/event';
+import {bind, each, isFunction, isString, indexOf} from '@sryoung-br/zrender/src/core/util';
+import * as eventTool from '@sryoung-br/zrender/src/core/event';
 import * as graphic from '../../util/graphic';
 import * as throttle from '../../util/throttle';
 import DataZoomView from './DataZoomView';
@@ -31,7 +31,7 @@ import {
     LayoutOrient, Payload, ZRTextVerticalAlign, ZRTextAlign, ZRElementEvent, ParsedValue
 } from '../../util/types';
 import SliderZoomModel from './SliderZoomModel';
-import { RectLike } from 'zrender/src/core/BoundingRect';
+import { RectLike } from '@sryoung-br/zrender/src/core/BoundingRect';
 import Axis from '../../coord/Axis';
 import SeriesModel from '../../model/Series';
 import { AxisBaseModel } from '../../coord/AxisBaseModel';
@@ -39,8 +39,8 @@ import { getAxisMainType, collectReferCoordSysModelInfo } from './helper';
 import { enableHoverEmphasis } from '../../util/states';
 import { createSymbol, symbolBuildProxies } from '../../util/symbol';
 import { deprecateLog } from '../../util/log';
-import { PointLike } from 'zrender/src/core/Point';
-import Displayable from 'zrender/src/graphic/Displayable';
+import { PointLike } from '@sryoung-br/zrender/src/core/Point';
+import Displayable from '@sryoung-br/zrender/src/graphic/Displayable';
 import {createTextStyle} from '../../label/labelStyle';
 import SeriesData from '../../data/SeriesData';
 

@@ -18,7 +18,7 @@
 */
 
 import { EChartsExtensionInstallRegisters } from '../../extension';
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import {layout, createProgressiveLayout} from '../../layout/barGrid';
 import dataSample from '../../processor/dataSample';
 

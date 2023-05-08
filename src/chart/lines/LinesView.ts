@@ -29,12 +29,12 @@ import ChartView from '../../view/Chart';
 import LinesSeriesModel from './LinesSeries';
 import GlobalModel from '../../model/Global';
 import ExtensionAPI from '../../core/ExtensionAPI';
-import CanvasPainter from 'zrender/src/canvas/Painter';
+import CanvasPainter from '@sryoung-br/zrender/src/canvas/Painter';
 import { StageHandlerProgressParams, StageHandlerProgressExecutor } from '../../util/types';
 import SeriesData from '../../data/SeriesData';
 import type Polar from '../../coord/polar/Polar';
 import type Cartesian2D from '../../coord/cartesian/Cartesian2D';
-import Element from 'zrender/src/Element';
+import Element from '@sryoung-br/zrender/src/Element';
 
 class LinesView extends ChartView {
 

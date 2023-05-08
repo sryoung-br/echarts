@@ -23,7 +23,7 @@ import SunburstSeriesModel from './SunburstSeries';
 import sunburstLayout from './sunburstLayout';
 import sunburstVisual from './sunburstVisual';
 import dataFilter from '../../processor/dataFilter';
-import { curry } from 'zrender/src/core/util';
+import { curry } from '@sryoung-br/zrender/src/core/util';
 import { installSunburstAction } from './sunburstAction';
 
 export function install(registers: EChartsExtensionInstallRegisters) {

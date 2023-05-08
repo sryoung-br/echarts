@@ -17,11 +17,11 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import {EChartsType} from './echarts';
 
 import type {CoordinateSystemMaster} from '../coord/CoordinateSystem';
-import type Element from 'zrender/src/Element';
+import type Element from '@sryoung-br/zrender/src/Element';
 import type ComponentModel from '../model/Component';
 import type ComponentView from '../view/Component';
 import type ChartView from '../view/Chart';

@@ -22,16 +22,16 @@ import {
     Path,
     Polyline
 } from '../util/graphic';
-import PathProxy from 'zrender/src/core/PathProxy';
-import { RectLike } from 'zrender/src/core/BoundingRect';
-import { normalizeRadian } from 'zrender/src/contain/util';
-import { cubicProjectPoint, quadraticProjectPoint } from 'zrender/src/core/curve';
-import Element from 'zrender/src/Element';
-import { defaults, retrieve2 } from 'zrender/src/core/util';
+import PathProxy from '@sryoung-br/zrender/src/core/PathProxy';
+import { RectLike } from '@sryoung-br/zrender/src/core/BoundingRect';
+import { normalizeRadian } from '@sryoung-br/zrender/src/contain/util';
+import { cubicProjectPoint, quadraticProjectPoint } from '@sryoung-br/zrender/src/core/curve';
+import Element from '@sryoung-br/zrender/src/Element';
+import { defaults, retrieve2 } from '@sryoung-br/zrender/src/core/util';
 import { LabelLineOption, DisplayState, StatesOptionMixin } from '../util/types';
 import Model from '../model/Model';
-import { invert } from 'zrender/src/core/matrix';
-import * as vector from 'zrender/src/core/vector';
+import { invert } from '@sryoung-br/zrender/src/core/matrix';
+import * as vector from '@sryoung-br/zrender/src/core/vector';
 import { DISPLAY_STATES, SPECIAL_STATES } from '../util/states';
 
 const PI2 = Math.PI * 2;

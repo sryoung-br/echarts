@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import { isString, extend, map, isFunction } from 'zrender/src/core/util';
+import { isString, extend, map, isFunction } from '@sryoung-br/zrender/src/core/util';
 import * as graphic from '../../util/graphic';
 import {createTextStyle} from '../../label/labelStyle';
 import { formatTplSimple } from '../../util/format';
@@ -28,8 +28,8 @@ import type GlobalModel from '../../model/Global';
 import type ExtensionAPI from '../../core/ExtensionAPI';
 import { LayoutOrient, OptionDataValueDate, ZRTextAlign, ZRTextVerticalAlign } from '../../util/types';
 import ComponentView from '../../view/Component';
-import { PathStyleProps } from 'zrender/src/graphic/Path';
-import { TextStyleProps, TextProps } from 'zrender/src/graphic/Text';
+import { PathStyleProps } from '@sryoung-br/zrender/src/graphic/Path';
+import { TextStyleProps, TextProps } from '@sryoung-br/zrender/src/graphic/Text';
 import { LocaleOption, getLocaleModel } from '../../core/locale';
 import type Model from '../../model/Model';
 

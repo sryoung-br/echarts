@@ -20,7 +20,7 @@
 import GlobalModel from '../../model/Global';
 import { findEffectedDataZooms } from './helper';
 import { EChartsExtensionInstallRegisters } from '../../extension';
-import { each } from 'zrender/src/core/util';
+import { each } from '@sryoung-br/zrender/src/core/util';
 
 
 export default function installDataZoomAction(registers: EChartsExtensionInstallRegisters) {

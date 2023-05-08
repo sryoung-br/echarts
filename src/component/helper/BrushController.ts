@@ -18,17 +18,17 @@
 */
 
 
-import {curry, each, map, bind, merge, clone, defaults, assert} from 'zrender/src/core/util';
-import Eventful from 'zrender/src/core/Eventful';
+import {curry, each, map, bind, merge, clone, defaults, assert} from '@sryoung-br/zrender/src/core/util';
+import Eventful from '@sryoung-br/zrender/src/core/Eventful';
 import * as graphic from '../../util/graphic';
 import * as interactionMutex from './interactionMutex';
 import DataDiffer from '../../data/DataDiffer';
 import { Dictionary } from '../../util/types';
-import { ZRenderType } from 'zrender/src/zrender';
-import { ElementEvent } from 'zrender/src/Element';
-import * as matrix from 'zrender/src/core/matrix';
-import Displayable from 'zrender/src/graphic/Displayable';
-import { PathStyleProps } from 'zrender/src/graphic/Path';
+import { ZRenderType } from '@sryoung-br/zrender/src/zrender';
+import { ElementEvent } from '@sryoung-br/zrender/src/Element';
+import * as matrix from '@sryoung-br/zrender/src/core/matrix';
+import Displayable from '@sryoung-br/zrender/src/graphic/Displayable';
+import { PathStyleProps } from '@sryoung-br/zrender/src/graphic/Path';
 
 
 /**

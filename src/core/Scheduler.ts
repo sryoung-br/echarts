@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import {each, map, isFunction, createHashMap, noop, HashMap, assert} from 'zrender/src/core/util';
+import {each, map, isFunction, createHashMap, noop, HashMap, assert} from '@sryoung-br/zrender/src/core/util';
 import {
     createTask, Task, TaskContext,
     TaskProgressCallback, TaskProgressParams, TaskPlanCallbackReturn, PerformArgs

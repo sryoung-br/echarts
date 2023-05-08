@@ -23,7 +23,7 @@ import { enterEmphasis, leaveEmphasis, toggleHoverEmphasis } from '../../util/st
 import SymbolClz from './Symbol';
 import SeriesData from '../../data/SeriesData';
 import type { ZRColor, ECElement } from '../../util/types';
-import type Displayable from 'zrender/src/graphic/Displayable';
+import type Displayable from '@sryoung-br/zrender/src/graphic/Displayable';
 import { SymbolDrawItemModelOption } from './SymbolDraw';
 
 interface RippleEffectCfg {

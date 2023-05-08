@@ -20,16 +20,16 @@
 import * as graphic from '../../util/graphic';
 import { enterEmphasis, leaveEmphasis, toggleHoverEmphasis, setStatesStylesFromModel } from '../../util/states';
 import { LayoutOrient, ECElement } from '../../util/types';
-import { PathProps } from 'zrender/src/graphic/Path';
+import { PathProps } from '@sryoung-br/zrender/src/graphic/Path';
 import SankeySeriesModel, { SankeyEdgeItemOption, SankeyNodeItemOption } from './SankeySeries';
 import ChartView from '../../view/Chart';
 import GlobalModel from '../../model/Global';
 import ExtensionAPI from '../../core/ExtensionAPI';
 import SeriesData from '../../data/SeriesData';
-import { RectLike } from 'zrender/src/core/BoundingRect';
+import { RectLike } from '@sryoung-br/zrender/src/core/BoundingRect';
 import { setLabelStyle, getLabelStatesModels } from '../../label/labelStyle';
 import { getECData } from '../../util/innerStore';
-import { isString } from 'zrender/src/core/util';
+import { isString } from '@sryoung-br/zrender/src/core/util';
 
 class SankeyPathShape {
     x1 = 0;

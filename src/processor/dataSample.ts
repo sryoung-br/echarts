@@ -18,9 +18,9 @@
 */
 
 import { StageHandler, SeriesOption, SeriesSamplingOptionMixin } from '../util/types';
-import { Dictionary } from 'zrender/src/core/types';
+import { Dictionary } from '@sryoung-br/zrender/src/core/types';
 import SeriesModel from '../model/Series';
-import { isFunction, isString } from 'zrender/src/core/util';
+import { isFunction, isString } from '@sryoung-br/zrender/src/core/util';
 
 
 type Sampler = (frame: ArrayLike<number>) => number;

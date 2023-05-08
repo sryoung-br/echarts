@@ -21,4 +21,4 @@ export {
     map, each, indexOf, inherits, reduce, filter,
     bind, curry, isArray, isString, isObject, isFunction,
     extend, defaults, clone, merge
-} from 'zrender/src/core/util';
+} from '@sryoung-br/zrender/src/core/util';

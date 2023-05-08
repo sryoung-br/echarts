@@ -18,9 +18,9 @@
 */
 
 import { Dictionary, ZRStyleProps } from './types';
-import { ElementTextConfig } from 'zrender/src/Element';
-import { TextStyleProps, TextStylePropsPart, TextProps } from 'zrender/src/graphic/Text';
-import { each, hasOwn } from 'zrender/src/core/util';
+import { ElementTextConfig } from '@sryoung-br/zrender/src/Element';
+import { TextStyleProps, TextStylePropsPart, TextProps } from '@sryoung-br/zrender/src/graphic/Text';
+import { each, hasOwn } from '@sryoung-br/zrender/src/core/util';
 import { ItemStyleProps } from '../model/mixin/itemStyle';
 
 export interface LegacyStyleProps {

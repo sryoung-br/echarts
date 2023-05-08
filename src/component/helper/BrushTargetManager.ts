@@ -18,7 +18,7 @@
 */
 
 
-import { each, indexOf, curry, assert, map, createHashMap } from 'zrender/src/core/util';
+import { each, indexOf, curry, assert, map, createHashMap } from '@sryoung-br/zrender/src/core/util';
 import * as graphic from '../../util/graphic';
 import * as brushHelper from './brushHelper';
 import {

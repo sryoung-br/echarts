@@ -20,7 +20,7 @@
 import {
     isTypedArray, HashMap, clone, createHashMap, isArray, isObject, isArrayLike,
     hasOwn, assert, each, map, isNumber, isString, keys
-} from 'zrender/src/core/util';
+} from '@sryoung-br/zrender/src/core/util';
 import {
     SourceFormat, SeriesLayoutBy, DimensionDefinition,
     OptionEncodeValue, OptionSourceData,

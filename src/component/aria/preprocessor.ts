@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import { ECUnitOption, AriaOptionMixin } from '../../util/types';
 
 export default function ariaPreprocessor(option: ECUnitOption & AriaOptionMixin) {

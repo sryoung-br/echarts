@@ -45,7 +45,7 @@ import {
     filter,
     HashMap,
     isNumber
-} from 'zrender/src/core/util';
+} from '@sryoung-br/zrender/src/core/util';
 import { makeInner } from '../../util/model';
 import { LineDataVisual } from '../../visual/commonVisualTypes';
 import { getVisualFromData } from '../../visual/helper';

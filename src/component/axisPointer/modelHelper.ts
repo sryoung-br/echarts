@@ -20,7 +20,7 @@
 import Model from '../../model/Model';
 import GlobalModel from '../../model/Global';
 import ExtensionAPI from '../../core/ExtensionAPI';
-import { each, curry, clone, defaults, isArray, indexOf } from 'zrender/src/core/util';
+import { each, curry, clone, defaults, isArray, indexOf } from '@sryoung-br/zrender/src/core/util';
 import AxisPointerModel, { AxisPointerOption } from './AxisPointerModel';
 import Axis from '../../coord/Axis';
 import { TooltipOption } from '../tooltip/TooltipModel';

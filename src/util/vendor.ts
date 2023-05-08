@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import { isArray } from 'zrender/src/core/util';
+import { isArray } from '@sryoung-br/zrender/src/core/util';
 
 /* global Float32Array */
 const supportFloat32Array = typeof Float32Array !== 'undefined';

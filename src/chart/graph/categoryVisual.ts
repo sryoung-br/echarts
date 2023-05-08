@@ -20,7 +20,7 @@
 import GlobalModel from '../../model/Global';
 import GraphSeriesModel, { GraphNodeItemOption } from './GraphSeries';
 import { Dictionary, ColorString } from '../../util/types';
-import { extend, isString } from 'zrender/src/core/util';
+import { extend, isString } from '@sryoung-br/zrender/src/core/util';
 
 export default function categoryVisual(ecModel: GlobalModel) {
 

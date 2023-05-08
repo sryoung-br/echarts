@@ -20,15 +20,15 @@
 /* global Int32Array */
 
 
-import * as zrUtil from 'zrender/src/core/util';
-import {PathStyleProps} from 'zrender/src/graphic/Path';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
+import {PathStyleProps} from '@sryoung-br/zrender/src/graphic/Path';
 import Model from '../model/Model';
 import DataDiffer from './DataDiffer';
 import {DataProvider, DefaultDataProvider} from './helper/dataProvider';
 import {summarizeDimensions, DimensionSummary} from './helper/dimensionHelper';
 import SeriesDimensionDefine from './SeriesDimensionDefine';
-import {ArrayLike, Dictionary, FunctionPropertyNames} from 'zrender/src/core/types';
-import Element from 'zrender/src/Element';
+import {ArrayLike, Dictionary, FunctionPropertyNames} from '@sryoung-br/zrender/src/core/types';
+import Element from '@sryoung-br/zrender/src/Element';
 import {
     DimensionIndex, DimensionName, DimensionLoose, OptionDataItem,
     ParsedValue, ParsedValueNumeric,

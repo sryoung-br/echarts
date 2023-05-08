@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import { isFunction, extend, createHashMap } from 'zrender/src/core/util';
+import { isFunction, extend, createHashMap } from '@sryoung-br/zrender/src/core/util';
 import { StageHandler, CallbackDataParams, ZRColor, Dictionary, InnerDecalObject }
     from '../util/types';
 import makeStyleMapper from '../model/mixin/makeStyleMapper';

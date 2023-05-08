@@ -19,7 +19,7 @@
 
 import * as graphic from '../../util/graphic';
 import { setStatesStylesFromModel, toggleHoverEmphasis } from '../../util/states';
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import * as symbolUtil from '../../util/symbol';
 import ChartView from '../../view/Chart';
 import RadarSeriesModel, { RadarSeriesDataItemOption } from './RadarSeries';
@@ -27,9 +27,9 @@ import ExtensionAPI from '../../core/ExtensionAPI';
 import SeriesData from '../../data/SeriesData';
 import { ColorString } from '../../util/types';
 import GlobalModel from '../../model/Global';
-import { VectorArray } from 'zrender/src/core/vector';
+import { VectorArray } from '@sryoung-br/zrender/src/core/vector';
 import { setLabelStyle, getLabelStatesModels } from '../../label/labelStyle';
-import ZRImage from 'zrender/src/graphic/Image';
+import ZRImage from '@sryoung-br/zrender/src/graphic/Image';
 import { saveOldStyle } from '../../animation/basicTransition';
 
 type RadarSymbol = ReturnType<typeof symbolUtil.createSymbol> & {

@@ -21,13 +21,13 @@ import {ECPolygon} from '../line/poly';
 import * as graphic from '../../util/graphic';
 import { setStatesStylesFromModel, toggleHoverEmphasis } from '../../util/states';
 import {setLabelStyle, getLabelStatesModels} from '../../label/labelStyle';
-import {bind} from 'zrender/src/core/util';
+import {bind} from '@sryoung-br/zrender/src/core/util';
 import DataDiffer from '../../data/DataDiffer';
 import ChartView from '../../view/Chart';
 import ThemeRiverSeriesModel from './ThemeRiverSeries';
 import GlobalModel from '../../model/Global';
 import ExtensionAPI from '../../core/ExtensionAPI';
-import { RectLike } from 'zrender/src/core/BoundingRect';
+import { RectLike } from '@sryoung-br/zrender/src/core/BoundingRect';
 import { ColorString } from '../../util/types';
 import { saveOldStyle } from '../../animation/basicTransition';
 

@@ -17,8 +17,8 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
-import BoundingRect from 'zrender/src/core/BoundingRect';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
+import BoundingRect from '@sryoung-br/zrender/src/core/BoundingRect';
 import View from '../View';
 import geoSourceManager from './geoSourceManager';
 import { GeoJSONRegion, Region } from './Region';

@@ -29,7 +29,7 @@ import GlobalModel from '../../model/Global';
 import BrushFeature from '../toolbox/feature/Brush';
 import { registerFeature } from '../toolbox/featureManager';
 
-import { noop } from 'zrender/src/core/util';
+import { noop } from '@sryoung-br/zrender/src/core/util';
 
 interface BrushPayload extends Payload {
     // If "areas" is empty, all of the select-boxes will be deleted

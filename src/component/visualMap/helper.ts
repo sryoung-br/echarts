@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import {getLayoutRect} from '../../util/layout';
 import VisualMapModel from './VisualMapModel';
 import ExtensionAPI from '../../core/ExtensionAPI';

@@ -17,13 +17,13 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
-import env from 'zrender/src/core/env';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
+import env from '@sryoung-br/zrender/src/core/env';
 import {makeInner} from '../../util/model';
 import ExtensionAPI from '../../core/ExtensionAPI';
-import { ZRenderType } from 'zrender/src/zrender';
+import { ZRenderType } from '@sryoung-br/zrender/src/zrender';
 import { ZRElementEvent } from '../../util/types';
-import { Dictionary } from 'zrender/src/core/types';
+import { Dictionary } from '@sryoung-br/zrender/src/core/types';
 
 type DispatchActionMethod = ExtensionAPI['dispatchAction'];
 

@@ -19,7 +19,7 @@
 
 // DEPRECATED
 // Preserved for echarts-gl
-import { Dictionary } from 'zrender/src/core/types';
+import { Dictionary } from '@sryoung-br/zrender/src/core/types';
 import { GeoJSONRegion } from '../Region';
 
 const geoCoordMap = {

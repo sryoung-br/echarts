@@ -22,7 +22,7 @@ import { GeoJSONRegion } from '../Region';
 // Fix for 钓鱼岛
 
 // let Region = require('../Region');
-// let zrUtil = require('zrender/src/core/util');
+// let zrUtil = require('@sryoung-br/zrender/src/core/util');
 
 // let geoCoord = [126, 25];
 

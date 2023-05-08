@@ -18,7 +18,7 @@
 */
 
 import quickSelect from './quickSelect';
-import { VectorArray } from 'zrender/src/core/vector';
+import { VectorArray } from '@sryoung-br/zrender/src/core/vector';
 
 type KDTreePoint = {
     array: VectorArray

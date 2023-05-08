@@ -17,18 +17,18 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import * as graphic from '../../util/graphic';
-import * as textContain from 'zrender/src/contain/text';
+import * as textContain from '@sryoung-br/zrender/src/contain/text';
 import * as formatUtil from '../../util/format';
-import * as matrix from 'zrender/src/core/matrix';
+import * as matrix from '@sryoung-br/zrender/src/core/matrix';
 import * as axisHelper from '../../coord/axisHelper';
 import AxisBuilder from '../axis/AxisBuilder';
 import Axis from '../../coord/Axis';
 import {
     ScaleDataValue, CallbackDataParams, ZRTextAlign, ZRTextVerticalAlign, ZRColor, CommonAxisPointerOption, ColorString
 } from '../../util/types';
-import { VectorArray } from 'zrender/src/core/vector';
+import { VectorArray } from '@sryoung-br/zrender/src/core/vector';
 import GlobalModel from '../../model/Global';
 import IntervalScale from '../../scale/Interval';
 import Axis2D from '../../coord/cartesian/Axis2D';
@@ -37,7 +37,7 @@ import { AxisBaseModel } from '../../coord/AxisBaseModel';
 import ExtensionAPI from '../../core/ExtensionAPI';
 import CartesianAxisModel from '../../coord/cartesian/AxisModel';
 import Model from '../../model/Model';
-import { PathStyleProps } from 'zrender/src/graphic/Path';
+import { PathStyleProps } from '@sryoung-br/zrender/src/graphic/Path';
 import { createTextStyle } from '../../label/labelStyle';
 
 interface LayoutInfo {

@@ -18,7 +18,7 @@
 */
 
 
-import {each, createHashMap, assert, map} from 'zrender/src/core/util';
+import {each, createHashMap, assert, map} from '@sryoung-br/zrender/src/core/util';
 import SeriesData from '../SeriesData';
 import {
     DimensionName, VISUAL_DIMENSIONS, DimensionType, DimensionIndex

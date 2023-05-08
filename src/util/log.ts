@@ -18,7 +18,7 @@
 */
 
 import { Dictionary } from './types';
-import { map, isString, isFunction, eqNaN, isRegExp } from 'zrender/src/core/util';
+import { map, isString, isFunction, eqNaN, isRegExp } from '@sryoung-br/zrender/src/core/util';
 
 const ECHARTS_PREFIX = '[ECharts] ';
 const storedLogs: Dictionary<boolean> = {};

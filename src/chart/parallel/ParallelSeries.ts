@@ -18,7 +18,7 @@
 */
 
 
-import {each, bind} from 'zrender/src/core/util';
+import {each, bind} from '@sryoung-br/zrender/src/core/util';
 import SeriesModel from '../../model/Series';
 import createSeriesData from '../helper/createSeriesData';
 import {

@@ -21,7 +21,7 @@ import * as graphicUtil from '../../util/graphic';
 import {getFont} from '../../label/labelStyle';
 import Model from '../Model';
 import { LabelOption, ColorString } from '../../util/types';
-import ZRText, {TextStyleProps} from 'zrender/src/graphic/Text';
+import ZRText, {TextStyleProps} from '@sryoung-br/zrender/src/graphic/Text';
 
 const PATH_COLOR = ['textStyle', 'color'] as const;
 

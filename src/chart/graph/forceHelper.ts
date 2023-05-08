@@ -27,8 +27,8 @@
 * </licenses/LICENSE-d3>).
 */
 
-import * as vec2 from 'zrender/src/core/vector';
-import { RectLike } from 'zrender/src/core/BoundingRect';
+import * as vec2 from '@sryoung-br/zrender/src/core/vector';
+import { RectLike } from '@sryoung-br/zrender/src/core/BoundingRect';
 
 const scaleAndAdd = vec2.scaleAndAdd;
 

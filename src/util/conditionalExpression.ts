@@ -20,7 +20,7 @@
 import { OptionDataValue, DimensionLoose, Dictionary } from './types';
 import {
     keys, isArray, map, isObject, isString, HashMap, isRegExp, isArrayLike, hasOwn, isNumber
-} from 'zrender/src/core/util';
+} from '@sryoung-br/zrender/src/core/util';
 import { throwError, makePrintable } from './log';
 import {
     RawValueParserType, getRawValueParser,

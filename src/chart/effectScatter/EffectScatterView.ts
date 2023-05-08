@@ -19,7 +19,7 @@
 
 import SymbolDraw from '../helper/SymbolDraw';
 import EffectSymbol from '../helper/EffectSymbol';
-import * as matrix from 'zrender/src/core/matrix';
+import * as matrix from '@sryoung-br/zrender/src/core/matrix';
 
 import pointsLayout from '../../layout/points';
 import ChartView from '../../view/Chart';

@@ -19,7 +19,7 @@
 */
 
 
-import { extend, retrieve3 } from 'zrender/src/core/util';
+import { extend, retrieve3 } from '@sryoung-br/zrender/src/core/util';
 import * as graphic from '../../util/graphic';
 import { setStatesStylesFromModel, toggleHoverEmphasis } from '../../util/states';
 import ChartView from '../../view/Chart';

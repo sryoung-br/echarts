@@ -78,7 +78,7 @@ import {TimeAxisLabelFormatterOption} from '../coord/axisCommonTypes';
 import { warn } from '../util/log';
 import { LocaleOption } from '../core/locale';
 import Model from '../model/Model';
-import { filter, isNumber, map } from 'zrender/src/core/util';
+import { filter, isNumber, map } from '@sryoung-br/zrender/src/core/util';
 
 // FIXME 公用？
 const bisect = function (

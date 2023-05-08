@@ -24,11 +24,11 @@
 import SingleAxis from './SingleAxis';
 import * as axisHelper from '../axisHelper';
 import {getLayoutRect} from '../../util/layout';
-import {each} from 'zrender/src/core/util';
+import {each} from '@sryoung-br/zrender/src/core/util';
 import { CoordinateSystem, CoordinateSystemMaster } from '../CoordinateSystem';
 import GlobalModel from '../../model/Global';
 import ExtensionAPI from '../../core/ExtensionAPI';
-import BoundingRect from 'zrender/src/core/BoundingRect';
+import BoundingRect from '@sryoung-br/zrender/src/core/BoundingRect';
 import SingleAxisModel from './AxisModel';
 import { ParsedModelFinder, ParsedModelFinderKnown } from '../../util/model';
 import { ScaleDataValue } from '../../util/types';

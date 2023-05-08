@@ -18,7 +18,7 @@
 */
 
 import {isDimensionStacked} from '../../data/helper/dataStackHelper';
-import {isNumber, map} from 'zrender/src/core/util';
+import {isNumber, map} from '@sryoung-br/zrender/src/core/util';
 import type Polar from '../../coord/polar/Polar';
 import type Cartesian2D from '../../coord/cartesian/Cartesian2D';
 import SeriesData from '../../data/SeriesData';

@@ -19,7 +19,7 @@
 
 // @ts-nocheck
 import * as echarts from '../../core/echarts';
-import { noop } from 'zrender/src/core/util';
+import { noop } from '@sryoung-br/zrender/src/core/util';
 
 const ATTR = '\0_ec_interaction_mutex';
 

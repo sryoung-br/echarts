@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import Eventful, { EventCallback } from 'zrender/src/core/Eventful';
+import Eventful, { EventCallback } from '@sryoung-br/zrender/src/core/Eventful';
 import SeriesModel from '../model/Series';
 import GlobalModel from '../model/Global';
 import { EChartsType } from './echarts';

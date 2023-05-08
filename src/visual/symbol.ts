@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import {extend, isFunction, keys} from 'zrender/src/core/util';
+import {extend, isFunction, keys} from '@sryoung-br/zrender/src/core/util';
 import {
     StageHandler,
     SeriesOption,

@@ -31,7 +31,7 @@ import GlobalModel from '../../model/Global';
 import Cartesian2D from '../../coord/cartesian/Cartesian2D';
 import SeriesData from '../../data/SeriesData';
 import {dimPermutations} from '../../component/marker/MarkAreaView';
-import { each } from 'zrender/src/core/util';
+import { each } from '@sryoung-br/zrender/src/core/util';
 import type Axis2D from '../../coord/cartesian/Axis2D';
 
 

@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import { isNumber } from 'zrender/src/core/util';
+import { isNumber } from '@sryoung-br/zrender/src/core/util';
 import { StageHandler } from '../util/types';
 
 export default function negativeDataFilter(seriesType: string): StageHandler {

@@ -17,21 +17,21 @@
 * under the License.
 */
 
-import {retrieve, defaults, extend, each, isObject, map, isString, isNumber, isFunction} from 'zrender/src/core/util';
+import {retrieve, defaults, extend, each, isObject, map, isString, isNumber, isFunction} from '@sryoung-br/zrender/src/core/util';
 import * as graphic from '../../util/graphic';
 import {getECData} from '../../util/innerStore';
 import {createTextStyle} from '../../label/labelStyle';
 import Model from '../../model/Model';
 import {isRadianAroundZero, remRadian} from '../../util/number';
 import {createSymbol, normalizeSymbolOffset} from '../../util/symbol';
-import * as matrixUtil from 'zrender/src/core/matrix';
-import {applyTransform as v2ApplyTransform} from 'zrender/src/core/vector';
+import * as matrixUtil from '@sryoung-br/zrender/src/core/matrix';
+import {applyTransform as v2ApplyTransform} from '@sryoung-br/zrender/src/core/vector';
 import {shouldShowAllLabels} from '../../coord/axisHelper';
 import { AxisBaseModel } from '../../coord/AxisBaseModel';
 import { ZRTextVerticalAlign, ZRTextAlign, ECElement, ColorString } from '../../util/types';
 import { AxisBaseOption } from '../../coord/axisCommonTypes';
-import Element from 'zrender/src/Element';
-import { PathStyleProps } from 'zrender/src/graphic/Path';
+import Element from '@sryoung-br/zrender/src/Element';
+import { PathStyleProps } from '@sryoung-br/zrender/src/graphic/Path';
 import OrdinalScale from '../../scale/Ordinal';
 import { prepareLayoutList, hideOverlap } from '../../label/labelLayoutHelper';
 

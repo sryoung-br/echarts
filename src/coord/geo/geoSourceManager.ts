@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import { createHashMap } from 'zrender/src/core/util';
+import { createHashMap } from '@sryoung-br/zrender/src/core/util';
 import { GeoSVGResource } from './GeoSVGResource';
 import {
     GeoJSON,

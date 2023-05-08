@@ -18,7 +18,7 @@
 */
 
 import { GeoJSONRegion } from '../Region';
-import { Dictionary } from 'zrender/src/core/types';
+import { Dictionary } from '@sryoung-br/zrender/src/core/types';
 
 const coordsOffsetMap = {
     '南海诸岛': [32, 80],

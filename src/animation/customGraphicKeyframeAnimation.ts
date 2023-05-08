@@ -17,9 +17,9 @@
 * under the License.
 */
 
-import { AnimationEasing } from 'zrender/src/animation/easing';
-import Element from 'zrender/src/Element';
-import { keys, filter, each, isArray, indexOf } from 'zrender/src/core/util';
+import { AnimationEasing } from '@sryoung-br/zrender/src/animation/easing';
+import Element from '@sryoung-br/zrender/src/Element';
+import { keys, filter, each, isArray, indexOf } from '@sryoung-br/zrender/src/core/util';
 import { ELEMENT_ANIMATABLE_PROPS } from './customGraphicTransition';
 import { AnimationOption, AnimationOptionMixin, Dictionary } from '../util/types';
 import type Model from '../model/Model';

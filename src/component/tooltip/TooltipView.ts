@@ -16,8 +16,8 @@
 * specific language governing permissions and limitations
 * under the License.
 */
-import { bind, each, clone, trim, isString, isFunction, isArray, isObject, extend } from 'zrender/src/core/util';
-import env from 'zrender/src/core/env';
+import { bind, each, clone, trim, isString, isFunction, isArray, isObject, extend } from '@sryoung-br/zrender/src/core/util';
+import env from '@sryoung-br/zrender/src/core/env';
 import TooltipHTMLContent from './TooltipHTMLContent';
 import TooltipRichContent from './TooltipRichContent';
 import { convertToColorString, formatTpl, TooltipMarker } from '../../util/format';
@@ -48,7 +48,7 @@ import {
 import GlobalModel from '../../model/Global';
 import ExtensionAPI from '../../core/ExtensionAPI';
 import TooltipModel, { TooltipOption } from './TooltipModel';
-import Element from 'zrender/src/Element';
+import Element from '@sryoung-br/zrender/src/Element';
 import { AxisBaseModel } from '../../coord/AxisBaseModel';
 import { ECData, getECData } from '../../util/innerStore';
 import { shouldTooltipConfine } from './helper';

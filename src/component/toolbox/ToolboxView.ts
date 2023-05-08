@@ -17,8 +17,8 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
-import * as textContain from 'zrender/src/contain/text';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
+import * as textContain from '@sryoung-br/zrender/src/contain/text';
 import * as graphic from '../../util/graphic';
 import { enterEmphasis, leaveEmphasis } from '../../util/states';
 import Model from '../../model/Model';
@@ -37,8 +37,8 @@ import {
     UserDefinedToolboxFeature
 } from './featureManager';
 import { getUID } from '../../util/component';
-import Displayable from 'zrender/src/graphic/Displayable';
-import ZRText from 'zrender/src/graphic/Text';
+import Displayable from '@sryoung-br/zrender/src/graphic/Displayable';
+import ZRText from '@sryoung-br/zrender/src/graphic/Text';
 
 type IconPath = ToolboxFeatureModel['iconPaths'][string];
 

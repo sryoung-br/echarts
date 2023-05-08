@@ -27,7 +27,7 @@ import {
     isObject,
     isTypedArray,
     HashMap
-} from 'zrender/src/core/util';
+} from '@sryoung-br/zrender/src/core/util';
 import { Source } from '../Source';
 
 import {

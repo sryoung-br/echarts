@@ -18,7 +18,7 @@
 */
 
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import SeriesData from '../../data/SeriesData';
 import MapSeries, { MapValueCalculationType } from './MapSeries';
 import GlobalModel from '../../model/Global';

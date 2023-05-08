@@ -19,7 +19,7 @@
 
 
 import * as clazzUtil from '../util/clazz';
-import { Dictionary } from 'zrender/src/core/types';
+import { Dictionary } from '@sryoung-br/zrender/src/core/types';
 import SeriesData from '../data/SeriesData';
 import {
     DimensionName,

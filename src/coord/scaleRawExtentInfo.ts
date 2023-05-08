@@ -17,10 +17,10 @@
 * under the License.
 */
 
-import { assert, isArray, eqNaN, isFunction } from 'zrender/src/core/util';
+import { assert, isArray, eqNaN, isFunction } from '@sryoung-br/zrender/src/core/util';
 import Scale from '../scale/Scale';
 import { AxisBaseModel } from './AxisBaseModel';
-import { parsePercent } from 'zrender/src/contain/text';
+import { parsePercent } from '@sryoung-br/zrender/src/contain/text';
 import { AxisBaseOption, CategoryAxisBaseOption } from './axisCommonTypes';
 import { ScaleDataValue } from '../util/types';
 

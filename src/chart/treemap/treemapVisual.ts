@@ -18,12 +18,12 @@
 */
 
 import VisualMapping, { VisualMappingOption } from '../../visual/VisualMapping';
-import { each, extend, isArray } from 'zrender/src/core/util';
+import { each, extend, isArray } from '@sryoung-br/zrender/src/core/util';
 import TreemapSeriesModel, { TreemapSeriesNodeItemOption, TreemapSeriesOption } from './TreemapSeries';
 import { TreemapLayoutNode, TreemapItemLayout } from './treemapLayout';
 import Model from '../../model/Model';
 import { ColorString, ZRColor } from '../../util/types';
-import { modifyHSL, modifyAlpha } from 'zrender/src/tool/color';
+import { modifyHSL, modifyAlpha } from '@sryoung-br/zrender/src/tool/color';
 import { makeInner } from '../../util/model';
 
 type NodeModel = Model<TreemapSeriesNodeItemOption>;

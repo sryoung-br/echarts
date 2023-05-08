@@ -18,13 +18,13 @@
 */
 
 
-import { each, isString, createHashMap, hasOwn } from 'zrender/src/core/util';
+import { each, isString, createHashMap, hasOwn } from '@sryoung-br/zrender/src/core/util';
 import parseGeoJson from './parseGeoJson';
 // Built-in GEO fixer.
 import fixNanhai from './fix/nanhai';
 import fixTextCoord from './fix/textCoord';
 import fixDiaoyuIsland from './fix/diaoyuIsland';
-import BoundingRect from 'zrender/src/core/BoundingRect';
+import BoundingRect from '@sryoung-br/zrender/src/core/BoundingRect';
 import { GeoJSONRegion } from './Region';
 import { GeoJSON, GeoJSONCompressed, GeoJSONSourceInput, GeoResource, GeoSpecialAreas, NameMap } from './geoTypes';
 

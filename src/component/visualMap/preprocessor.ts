@@ -18,7 +18,7 @@
 */
 
 // @ts-nocheck
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 
 const each = zrUtil.each;
 

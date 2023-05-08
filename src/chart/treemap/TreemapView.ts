@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import {bind, each, indexOf, curry, extend, normalizeCssArray, isFunction} from 'zrender/src/core/util';
+import {bind, each, indexOf, curry, extend, normalizeCssArray, isFunction} from '@sryoung-br/zrender/src/core/util';
 import * as graphic from '../../util/graphic';
 import {getECData} from '../../util/innerStore';
 import {
@@ -31,8 +31,8 @@ import DataDiffer from '../../data/DataDiffer';
 import * as helper from '../helper/treeHelper';
 import Breadcrumb from './Breadcrumb';
 import RoamController, { RoamEventParams } from '../../component/helper/RoamController';
-import BoundingRect, { RectLike } from 'zrender/src/core/BoundingRect';
-import * as matrix from 'zrender/src/core/matrix';
+import BoundingRect, { RectLike } from '@sryoung-br/zrender/src/core/BoundingRect';
+import * as matrix from '@sryoung-br/zrender/src/core/matrix';
 import * as animationUtil from '../../util/animation';
 import makeStyleMapper from '../../model/mixin/makeStyleMapper';
 import ChartView from '../../view/Chart';
@@ -43,10 +43,10 @@ import ExtensionAPI from '../../core/ExtensionAPI';
 import Model from '../../model/Model';
 import { LayoutRect } from '../../util/layout';
 import { TreemapLayoutNode } from './treemapLayout';
-import Element from 'zrender/src/Element';
-import Displayable from 'zrender/src/graphic/Displayable';
+import Element from '@sryoung-br/zrender/src/Element';
+import Displayable from '@sryoung-br/zrender/src/graphic/Displayable';
 import { makeInner, convertOptionIdName } from '../../util/model';
-import { PathStyleProps, PathProps } from 'zrender/src/graphic/Path';
+import { PathStyleProps, PathProps } from '@sryoung-br/zrender/src/graphic/Path';
 import { TreeSeriesNodeItemOption } from '../tree/TreeSeries';
 import {
     TreemapRootToNodePayload,
@@ -56,7 +56,7 @@ import {
 } from './treemapAction';
 import { ColorString, ECElement } from '../../util/types';
 import { windowOpen } from '../../util/format';
-import { TextStyleProps } from 'zrender/src/graphic/Text';
+import { TextStyleProps } from '@sryoung-br/zrender/src/graphic/Text';
 import { setLabelStyle, getLabelStatesModels } from '../../label/labelStyle';
 
 const Group = graphic.Group;

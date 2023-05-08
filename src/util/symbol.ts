@@ -19,11 +19,11 @@
 
 // Symbol factory
 
-import { each, isArray, retrieve2 } from 'zrender/src/core/util';
+import { each, isArray, retrieve2 } from '@sryoung-br/zrender/src/core/util';
 import * as graphic from './graphic';
-import BoundingRect from 'zrender/src/core/BoundingRect';
-import { calculateTextPosition } from 'zrender/src/contain/text';
-import { Dictionary } from 'zrender/src/core/types';
+import BoundingRect from '@sryoung-br/zrender/src/core/BoundingRect';
+import { calculateTextPosition } from '@sryoung-br/zrender/src/contain/text';
+import { Dictionary } from '@sryoung-br/zrender/src/core/types';
 import { SymbolOptionMixin, ZRColor } from './types';
 import { parsePercent } from './number';
 

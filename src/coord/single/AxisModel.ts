@@ -25,7 +25,7 @@ import SingleAxis from './SingleAxis';
 import { AxisBaseOption } from '../axisCommonTypes';
 import { BoxLayoutOptionMixin, LayoutOrient } from '../../util/types';
 import { AxisBaseModel } from '../AxisBaseModel';
-import { mixin } from 'zrender/src/core/util';
+import { mixin } from '@sryoung-br/zrender/src/core/util';
 
 export type SingleAxisPosition = 'top' | 'bottom' | 'left' | 'right';
 

@@ -23,7 +23,7 @@
  * TODO Default cartesian
  */
 
-import {isObject, each, indexOf, retrieve3, keys} from 'zrender/src/core/util';
+import {isObject, each, indexOf, retrieve3, keys} from '@sryoung-br/zrender/src/core/util';
 import {getLayoutRect, LayoutRect} from '../../util/layout';
 import {
     createScaleByModel,
@@ -41,7 +41,7 @@ import GridModel from './GridModel';
 import CartesianAxisModel from './AxisModel';
 import GlobalModel from '../../model/Global';
 import ExtensionAPI from '../../core/ExtensionAPI';
-import { Dictionary } from 'zrender/src/core/types';
+import { Dictionary } from '@sryoung-br/zrender/src/core/types';
 import {CoordinateSystemMaster} from '../CoordinateSystem';
 import { ScaleDataValue } from '../../util/types';
 import SeriesData from '../../data/SeriesData';

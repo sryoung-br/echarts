@@ -18,8 +18,8 @@
 */
 
 
-import * as polygonContain from 'zrender/src/contain/polygon';
-import BoundingRect, { RectLike } from 'zrender/src/core/BoundingRect';
+import * as polygonContain from '@sryoung-br/zrender/src/contain/polygon';
+import BoundingRect, { RectLike } from '@sryoung-br/zrender/src/core/BoundingRect';
 import {linePolygonIntersect} from '../../util/graphic';
 import { BrushType, BrushDimensionMinMax } from '../helper/BrushController';
 import { BrushAreaParamInternal } from './BrushModel';

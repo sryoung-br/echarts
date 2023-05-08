@@ -36,11 +36,11 @@ import ComponentView from './view/Component';
 import ChartView from './view/Chart';
 import ComponentModel from './model/Component';
 import SeriesModel from './model/Series';
-import { isFunction, indexOf, isArray, each } from 'zrender/src/core/util';
+import { isFunction, indexOf, isArray, each } from '@sryoung-br/zrender/src/core/util';
 import { Constructor } from './util/clazz';
 import { SubTypeDefaulter } from './util/component';
 import { registerImpl } from './core/impl';
-import { registerPainter } from 'zrender/src/zrender';
+import { registerPainter } from '@sryoung-br/zrender/src/zrender';
 
 const extensions: (EChartsExtensionInstaller | EChartsExtension)[] = [];
 

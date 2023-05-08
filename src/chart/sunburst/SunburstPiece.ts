@@ -17,14 +17,14 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import * as graphic from '../../util/graphic';
 import { toggleHoverEmphasis, SPECIAL_STATES, DISPLAY_STATES } from '../../util/states';
 import {createTextStyle} from '../../label/labelStyle';
 import { TreeNode } from '../../data/Tree';
 import SunburstSeriesModel, { SunburstSeriesNodeItemOption, SunburstSeriesOption } from './SunburstSeries';
 import GlobalModel from '../../model/Global';
-import { PathStyleProps } from 'zrender/src/graphic/Path';
+import { PathStyleProps } from '@sryoung-br/zrender/src/graphic/Path';
 import { ColorString } from '../../util/types';
 import Model from '../../model/Model';
 import { getECData } from '../../util/innerStore';
@@ -32,7 +32,7 @@ import { getSectorCornerRadius } from '../helper/sectorHelper';
 import {createOrUpdatePatternFromDecal} from '../../util/decal';
 import ExtensionAPI from '../../core/ExtensionAPI';
 import { saveOldStyle } from '../../animation/basicTransition';
-import { normalizeRadian } from 'zrender/src/contain/util';
+import { normalizeRadian } from '@sryoung-br/zrender/src/contain/util';
 
 const DEFAULT_SECTOR_Z = 2;
 const DEFAULT_TEXT_Z = 4;

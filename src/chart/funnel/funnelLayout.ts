@@ -23,7 +23,7 @@ import FunnelSeriesModel, { FunnelSeriesOption, FunnelDataItemOption } from './F
 import ExtensionAPI from '../../core/ExtensionAPI';
 import SeriesData from '../../data/SeriesData';
 import GlobalModel from '../../model/Global';
-import { isFunction } from 'zrender/src/core/util';
+import { isFunction } from '@sryoung-br/zrender/src/core/util';
 
 function getViewRect(seriesModel: FunnelSeriesModel, api: ExtensionAPI) {
     return layout.getLayoutRect(

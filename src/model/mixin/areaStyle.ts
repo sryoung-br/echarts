@@ -20,7 +20,7 @@
 import makeStyleMapper from './makeStyleMapper';
 import Model from '../Model';
 import { AreaStyleOption } from '../../util/types';
-import { PathStyleProps } from 'zrender/src/graphic/Path';
+import { PathStyleProps } from '@sryoung-br/zrender/src/graphic/Path';
 
 export const AREA_STYLE_KEY_MAP = [
     ['fill', 'color'],

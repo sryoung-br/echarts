@@ -17,9 +17,9 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import * as modelUtil from '../../util/model';
-import { Dictionary } from 'zrender/src/core/types';
+import { Dictionary } from '@sryoung-br/zrender/src/core/types';
 import { deprecateLog, deprecateReplaceLog } from '../../util/log';
 
 const each = zrUtil.each;

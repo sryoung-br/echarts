@@ -20,7 +20,7 @@
 import GlobalModel from '../../model/Global';
 import GraphSeriesModel, { GraphNodeItemOption } from './GraphSeries';
 import type LegendModel from '../../component/legend/LegendModel';
-import { isNumber } from 'zrender/src/core/util';
+import { isNumber } from '@sryoung-br/zrender/src/core/util';
 
 export default function categoryFilter(ecModel: GlobalModel) {
     const legendModels = ecModel.findComponents({

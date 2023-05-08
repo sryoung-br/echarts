@@ -18,8 +18,8 @@
 */
 
 
-import * as zrUtil from 'zrender/src/core/util';
-import BoundingRect from 'zrender/src/core/BoundingRect';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
+import BoundingRect from '@sryoung-br/zrender/src/core/BoundingRect';
 import * as visualSolution from '../../visual/visualSolution';
 import { BrushSelectableArea, makeBrushCommonSelectorForSeries } from './selector';
 import * as throttleUtil from '../../util/throttle';
@@ -30,7 +30,7 @@ import { Payload } from '../../util/types';
 import BrushModel, { BrushAreaParamInternal } from './BrushModel';
 import SeriesModel from '../../model/Series';
 import ParallelSeriesModel from '../../chart/parallel/ParallelSeries';
-import { ZRenderType } from 'zrender/src/zrender';
+import { ZRenderType } from '@sryoung-br/zrender/src/zrender';
 import { BrushType, BrushDimensionMinMax } from '../helper/BrushController';
 
 type BrushVisualState = 'inBrush' | 'outOfBrush';

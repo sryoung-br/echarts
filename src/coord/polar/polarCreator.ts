@@ -19,7 +19,7 @@
 
 // TODO Axis scale
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import Polar, { polarDimensions } from './Polar';
 import {parsePercent} from '../../util/number';
 import {

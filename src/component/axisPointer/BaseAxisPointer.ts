@@ -18,21 +18,21 @@
 */
 
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import * as graphic from '../../util/graphic';
 import * as axisPointerModelHelper from './modelHelper';
-import * as eventTool from 'zrender/src/core/event';
+import * as eventTool from '@sryoung-br/zrender/src/core/event';
 import * as throttleUtil from '../../util/throttle';
 import {makeInner} from '../../util/model';
 import { AxisPointer } from './AxisPointer';
 import { AxisBaseModel } from '../../coord/AxisBaseModel';
 import ExtensionAPI from '../../core/ExtensionAPI';
-import Displayable, { DisplayableProps } from 'zrender/src/graphic/Displayable';
-import Element from 'zrender/src/Element';
+import Displayable, { DisplayableProps } from '@sryoung-br/zrender/src/graphic/Displayable';
+import Element from '@sryoung-br/zrender/src/Element';
 import { VerticalAlign, HorizontalAlign, CommonAxisPointerOption } from '../../util/types';
-import { PathProps } from 'zrender/src/graphic/Path';
+import { PathProps } from '@sryoung-br/zrender/src/graphic/Path';
 import Model from '../../model/Model';
-import { TextProps } from 'zrender/src/graphic/Text';
+import { TextProps } from '@sryoung-br/zrender/src/graphic/Text';
 
 const inner = makeInner<{
     lastProp?: DisplayableProps

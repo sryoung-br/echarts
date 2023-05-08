@@ -18,7 +18,7 @@
 */
 
 
-import BoundingRect from 'zrender/src/core/BoundingRect';
+import BoundingRect from '@sryoung-br/zrender/src/core/BoundingRect';
 import Cartesian from './Cartesian';
 import { ScaleDataValue } from '../../util/types';
 import Axis2D from './Axis2D';
@@ -26,8 +26,8 @@ import { CoordinateSystem } from '../CoordinateSystem';
 import GridModel from './GridModel';
 import Grid from './Grid';
 import Scale from '../../scale/Scale';
-import { invert } from 'zrender/src/core/matrix';
-import { applyTransform } from 'zrender/src/core/vector';
+import { invert } from '@sryoung-br/zrender/src/core/matrix';
+import { applyTransform } from '@sryoung-br/zrender/src/core/vector';
 
 export const cartesian2DDimensions = ['x', 'y'];
 

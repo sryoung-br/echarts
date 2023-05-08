@@ -18,7 +18,7 @@
 */
 
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import ComponentModel from '../../model/Component';
 import makeStyleMapper from '../../model/mixin/makeStyleMapper';
 import { AxisModelExtendedInCreator } from '../axisModelCreator';
@@ -28,7 +28,7 @@ import ParallelAxis from './ParallelAxis';
 import { ZRColor, ParsedValue } from '../../util/types';
 import { AxisBaseOption } from '../axisCommonTypes';
 import Parallel from './Parallel';
-import { PathStyleProps } from 'zrender/src/graphic/Path';
+import { PathStyleProps } from '@sryoung-br/zrender/src/graphic/Path';
 
 
 // 'normal' means there is no "active intervals" existing.

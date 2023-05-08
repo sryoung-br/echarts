@@ -17,14 +17,14 @@
 * under the License.
 */
 
-import Group from 'zrender/src/graphic/Group';
+import Group from '@sryoung-br/zrender/src/graphic/Group';
 import * as componentUtil from '../util/component';
 import * as clazzUtil from '../util/clazz';
 import ComponentModel from '../model/Component';
 import GlobalModel from '../model/Global';
 import ExtensionAPI from '../core/ExtensionAPI';
 import {Payload, ViewRootGroup, ECActionEvent, EventQueryItem, ECElementEvent} from '../util/types';
-import Element from 'zrender/src/Element';
+import Element from '@sryoung-br/zrender/src/Element';
 import SeriesModel from '../model/Series';
 
 interface ComponentView {

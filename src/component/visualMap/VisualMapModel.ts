@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import visualDefault from '../../visual/visualDefault';
 import VisualMapping, { VisualMappingOption } from '../../visual/VisualMapping';
 import * as visualSolution from '../../visual/visualSolution';

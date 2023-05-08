@@ -18,7 +18,7 @@
 */
 
 import { EChartsExtensionInstallRegisters } from '../extension';
-import CanvasPainter from 'zrender/src/canvas/Painter';
+import CanvasPainter from '@sryoung-br/zrender/src/canvas/Painter';
 
 export function install(registers: EChartsExtensionInstallRegisters) {
     registers.registerPainter('canvas', CanvasPainter);

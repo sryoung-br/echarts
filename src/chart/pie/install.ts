@@ -22,7 +22,7 @@ import { EChartsExtensionInstallRegisters } from '../../extension';
 import {createLegacyDataSelectAction} from '../../legacy/dataSelectAction';
 import pieLayout from '../pie/pieLayout';
 import dataFilter from '../../processor/dataFilter';
-import { curry } from 'zrender/src/core/util';
+import { curry } from '@sryoung-br/zrender/src/core/util';
 import PieView from './PieView';
 import PieSeriesModel from './PieSeries';
 import negativeDataFilter from '../../processor/negativeDataFilter';

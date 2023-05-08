@@ -17,8 +17,8 @@
 * under the License.
 */
 
-import BoundingRect from 'zrender/src/core/BoundingRect';
-import { HashMap } from 'zrender/src/core/util';
+import BoundingRect from '@sryoung-br/zrender/src/core/BoundingRect';
+import { HashMap } from '@sryoung-br/zrender/src/core/util';
 import { Group } from '../../util/graphic';
 import { Region } from './Region';
 

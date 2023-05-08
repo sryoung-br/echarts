@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import Cartesian2D from './Cartesian2D';
 
 function dataToCoordSize(this: Cartesian2D, dataSize: number[], dataItem: number[]): number[] {

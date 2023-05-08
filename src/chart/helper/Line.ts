@@ -17,8 +17,8 @@
 * under the License.
 */
 
-import { isArray, each } from 'zrender/src/core/util';
-import * as vector from 'zrender/src/core/vector';
+import { isArray, each } from '@sryoung-br/zrender/src/core/util';
+import * as vector from '@sryoung-br/zrender/src/core/vector';
 import * as symbolUtil from '../../util/symbol';
 import ECLinePath from './LinePath';
 import * as graphic from '../../util/graphic';
@@ -36,7 +36,7 @@ import {
 } from '../../util/types';
 import SeriesModel from '../../model/Series';
 import type { LineDrawSeriesScope, LineDrawModelOption } from './LineDraw';
-import { TextStyleProps } from 'zrender/src/graphic/Text';
+import { TextStyleProps } from '@sryoung-br/zrender/src/graphic/Text';
 import { LineDataVisual } from '../../visual/commonVisualTypes';
 import Model from '../../model/Model';
 

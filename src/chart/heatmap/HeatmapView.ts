@@ -20,7 +20,7 @@
 import * as graphic from '../../util/graphic';
 import { toggleHoverEmphasis } from '../../util/states';
 import HeatmapLayer from './HeatmapLayer';
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import ChartView from '../../view/Chart';
 import HeatmapSeriesModel, { HeatmapDataItemOption } from './HeatmapSeries';
 import type GlobalModel from '../../model/Global';
@@ -33,7 +33,7 @@ import { StageHandlerProgressParams, Dictionary, OptionDataValue } from '../../u
 import type Cartesian2D from '../../coord/cartesian/Cartesian2D';
 import type Calendar from '../../coord/calendar/Calendar';
 import { setLabelStyle, getLabelStatesModels } from '../../label/labelStyle';
-import type Element from 'zrender/src/Element';
+import type Element from '@sryoung-br/zrender/src/Element';
 
 // Coord can be 'geo' 'bmap' 'amap' 'leaflet'...
 interface GeoLikeCoordSys extends CoordinateSystem {

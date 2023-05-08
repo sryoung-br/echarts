@@ -28,18 +28,18 @@ import SeriesData from '../data/SeriesData';
 
 // Provide utilities API in echarts. It will be in echarts namespace.
 // Like echarts.util, echarts.graphic
-export * as zrender from 'zrender/src/zrender';
+export * as zrender from '@sryoung-br/zrender/src/zrender';
 
-export * as matrix from 'zrender/src/core/matrix';
-export * as vector from 'zrender/src/core/vector';
-export * as zrUtil from 'zrender/src/core/util';
-export * as color from 'zrender/src/tool/color';
+export * as matrix from '@sryoung-br/zrender/src/core/matrix';
+export * as vector from '@sryoung-br/zrender/src/core/vector';
+export * as zrUtil from '@sryoung-br/zrender/src/core/util';
+export * as color from '@sryoung-br/zrender/src/tool/color';
 export {throttle} from '../util/throttle';
 export * as helper from './api/helper';
 
 export {use} from '../extension';
 
-export {setPlatformAPI} from 'zrender/src/core/platform';
+export {setPlatformAPI} from '@sryoung-br/zrender/src/core/platform';
 
 // --------------------- Helper Methods ---------------------
 export {default as parseGeoJSON} from '../coord/geo/parseGeoJson';
@@ -53,7 +53,7 @@ export * as format from './api/format';
 
 export * as util from './api/util';
 
-export {default as env} from 'zrender/src/core/env';
+export {default as env} from '@sryoung-br/zrender/src/core/env';
 
 // --------------------- Export for Extension Usage ---------------------
 // export {SeriesData};
@@ -69,7 +69,7 @@ export {
 };
 
 // Only for GL
-export {brushSingle as innerDrawElementOnCanvas} from 'zrender/src/canvas/graphic';
+export {brushSingle as innerDrawElementOnCanvas} from '@sryoung-br/zrender/src/canvas/graphic';
 
 
 // --------------------- Deprecated Extension Methods ---------------------

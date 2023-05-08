@@ -19,7 +19,7 @@
 
 // FIXME step not support polar
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import SymbolDraw from '../helper/SymbolDraw';
 import SymbolClz from '../helper/Symbol';
 import lineAnimationDiff from './lineAnimationDiff';
@@ -56,8 +56,8 @@ import { getDefaultLabel, getDefaultInterpolatedLabel } from '../helper/labelHel
 import { getECData } from '../../util/innerStore';
 import { createFloat32Array } from '../../util/vendor';
 import { convertToColorString } from '../../util/format';
-import { lerp } from 'zrender/src/tool/color';
-import Element from 'zrender/src/Element';
+import { lerp } from '@sryoung-br/zrender/src/tool/color';
+import Element from '@sryoung-br/zrender/src/Element';
 
 
 type PolarArea = ReturnType<Polar['getArea']>;

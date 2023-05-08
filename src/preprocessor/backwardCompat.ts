@@ -17,10 +17,10 @@
 * under the License.
 */
 
-import {each, isArray, isObject, isTypedArray, defaults} from 'zrender/src/core/util';
+import {each, isArray, isObject, isTypedArray, defaults} from '@sryoung-br/zrender/src/core/util';
 import compatStyle from './helper/compatStyle';
 import {normalizeToArray} from '../util/model';
-import { Dictionary } from 'zrender/src/core/types';
+import { Dictionary } from '@sryoung-br/zrender/src/core/types';
 import { ECUnitOption } from '../util/types';
 import type { BarSeriesOption } from '../chart/bar/BarSeries';
 import type { PieSeriesOption } from '../chart/pie/PieSeries';

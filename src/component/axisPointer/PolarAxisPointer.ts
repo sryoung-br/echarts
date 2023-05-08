@@ -20,7 +20,7 @@
 import BaseAxisPointer, { AxisPointerElementOptions } from './BaseAxisPointer';
 import * as graphic from '../../util/graphic';
 import * as viewHelper from './viewHelper';
-import * as matrix from 'zrender/src/core/matrix';
+import * as matrix from '@sryoung-br/zrender/src/core/matrix';
 import AxisBuilder from '../axis/AxisBuilder';
 import {
     OptionDataValue,
@@ -34,7 +34,7 @@ import ExtensionAPI from '../../core/ExtensionAPI';
 import Polar from '../../coord/polar/Polar';
 import AngleAxis from '../../coord/polar/AngleAxis';
 import RadiusAxis from '../../coord/polar/RadiusAxis';
-import { PathProps } from 'zrender/src/graphic/Path';
+import { PathProps } from '@sryoung-br/zrender/src/graphic/Path';
 import Model from '../../model/Model';
 
 // Not use top level axisPointer model

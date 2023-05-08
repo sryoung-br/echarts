@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import env from 'zrender/src/core/env';
+import env from '@sryoung-br/zrender/src/core/env';
 import {
     enableClassExtend,
     ExtendableConstructor,
@@ -31,8 +31,8 @@ import {LineStyleMixin} from './mixin/lineStyle';
 import {ItemStyleMixin} from './mixin/itemStyle';
 import GlobalModel from './Global';
 import { AnimationOptionMixin, ModelOption } from '../util/types';
-import { Dictionary } from 'zrender/src/core/types';
-import { mixin, clone, merge } from 'zrender/src/core/util';
+import { Dictionary } from '@sryoung-br/zrender/src/core/types';
+import { mixin, clone, merge } from '@sryoung-br/zrender/src/core/util';
 
 // Since model.option can be not only `Dictionary` but also primary types,
 // we do this conditional type to avoid getting type 'never';

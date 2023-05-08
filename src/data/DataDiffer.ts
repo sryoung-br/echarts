@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import {ArrayLike} from 'zrender/src/core/types';
+import {ArrayLike} from '@sryoung-br/zrender/src/core/types';
 
 // return key.
 type DiffKeyGetter<CTX = unknown> =

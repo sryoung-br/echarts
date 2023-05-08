@@ -18,7 +18,7 @@
 */
 
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import ComponentModel from '../../model/Component';
 import Parallel from './Parallel';
 import { DimensionName, ComponentOption, BoxLayoutOptionMixin } from '../../util/types';

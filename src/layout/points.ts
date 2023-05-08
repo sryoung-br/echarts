@@ -18,7 +18,7 @@
 */
 
 
-import {map} from 'zrender/src/core/util';
+import {map} from '@sryoung-br/zrender/src/core/util';
 import createRenderPlanner from '../chart/helper/createRenderPlanner';
 import {isDimensionStacked} from '../data/helper/dataStackHelper';
 import SeriesModel from '../model/Series';

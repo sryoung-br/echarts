@@ -19,10 +19,10 @@
 
 import { Payload, SelectChangedPayload } from '../util/types';
 import SeriesModel from '../model/Series';
-import { extend, each, isArray, isString } from 'zrender/src/core/util';
+import { extend, each, isArray, isString } from '@sryoung-br/zrender/src/core/util';
 import GlobalModel from '../model/Global';
 import { deprecateReplaceLog, deprecateLog } from '../util/log';
-import Eventful from 'zrender/src/core/Eventful';
+import Eventful from '@sryoung-br/zrender/src/core/Eventful';
 import type { EChartsType, registerAction } from '../core/echarts';
 import { queryDataIndex } from '../util/model';
 import ExtensionAPI from '../core/ExtensionAPI';

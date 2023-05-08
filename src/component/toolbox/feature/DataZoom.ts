@@ -19,7 +19,7 @@
 
 
 // TODO depends on DataZoom and Brush
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import BrushController, { BrushControllerEvents, BrushDimensionMinMax } from '../../helper/BrushController';
 import BrushTargetManager, { BrushTargetInfoCartesian2D } from '../../helper/BrushTargetManager';
 import * as history from '../../dataZoom/history';

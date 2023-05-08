@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import { isArray } from 'zrender/src/core/util';
+import { isArray } from '@sryoung-br/zrender/src/core/util';
 import { SeriesOption } from '../../util/types';
 
 type MarkerTypes = 'markPoint' | 'markLine' | 'markArea';

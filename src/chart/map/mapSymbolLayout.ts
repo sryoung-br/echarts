@@ -18,7 +18,7 @@
 */
 
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import GlobalModel from '../../model/Global';
 import MapSeries from './MapSeries';
 import { Dictionary } from '../../util/types';

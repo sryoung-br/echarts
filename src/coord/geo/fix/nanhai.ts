@@ -19,7 +19,7 @@
 
 // Fix for 南海诸岛
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import { GeoJSONRegion } from '../Region';
 
 const geoCoord = [126, 25];

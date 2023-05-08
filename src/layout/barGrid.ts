@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import { each, defaults, keys } from 'zrender/src/core/util';
+import { each, defaults, keys } from '@sryoung-br/zrender/src/core/util';
 import { parsePercent } from '../util/number';
 import { isDimensionStacked } from '../data/helper/dataStackHelper';
 import createRenderPlanner from '../chart/helper/createRenderPlanner';

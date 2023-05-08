@@ -19,11 +19,11 @@
 
 import { Dictionary } from '../util/types';
 import Model from '../model/Model';
-import env from 'zrender/src/core/env';
+import env from '@sryoung-br/zrender/src/core/env';
 // default import ZH and EN lang
 import langEN from '../i18n/langEN';
 import langZH from '../i18n/langZH';
-import { isString, clone, merge } from 'zrender/src/core/util';
+import { isString, clone, merge } from '@sryoung-br/zrender/src/core/util';
 
 export type LocaleOption = typeof langEN;
 

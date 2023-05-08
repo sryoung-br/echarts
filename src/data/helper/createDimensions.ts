@@ -30,7 +30,7 @@ import {
 import SeriesDimensionDefine from '../SeriesDimensionDefine';
 import {
     createHashMap, defaults, each, extend, HashMap, isObject, isString
-} from 'zrender/src/core/util';
+} from '@sryoung-br/zrender/src/core/util';
 import OrdinalMeta from '../OrdinalMeta';
 import { createSourceFromSeriesDataOption, isSourceInstance, Source } from '../Source';
 import { CtorInt32Array } from '../DataStore';

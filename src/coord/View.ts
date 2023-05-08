@@ -22,10 +22,10 @@
  * Mapping given x, y to transformd view x, y
  */
 
-import * as vector from 'zrender/src/core/vector';
-import * as matrix from 'zrender/src/core/matrix';
-import BoundingRect from 'zrender/src/core/BoundingRect';
-import Transformable from 'zrender/src/core/Transformable';
+import * as vector from '@sryoung-br/zrender/src/core/vector';
+import * as matrix from '@sryoung-br/zrender/src/core/matrix';
+import BoundingRect from '@sryoung-br/zrender/src/core/BoundingRect';
+import Transformable from '@sryoung-br/zrender/src/core/Transformable';
 import { CoordinateSystemMaster, CoordinateSystem } from './CoordinateSystem';
 import GlobalModel from '../model/Global';
 import { ParsedModelFinder, ParsedModelFinderKnown } from '../util/model';

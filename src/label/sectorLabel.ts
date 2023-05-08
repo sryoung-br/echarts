@@ -18,11 +18,11 @@
 * under the License.
 */
 
-import {calculateTextPosition, TextPositionCalculationResult} from 'zrender/src/contain/text';
-import { RectLike } from 'zrender/src/core/BoundingRect';
-import {BuiltinTextPosition, TextAlign, TextVerticalAlign} from 'zrender/src/core/types';
-import {isArray, isNumber} from 'zrender/src/core/util';
-import {ElementCalculateTextPosition, ElementTextConfig} from 'zrender/src/Element';
+import {calculateTextPosition, TextPositionCalculationResult} from '@sryoung-br/zrender/src/contain/text';
+import { RectLike } from '@sryoung-br/zrender/src/core/BoundingRect';
+import {BuiltinTextPosition, TextAlign, TextVerticalAlign} from '@sryoung-br/zrender/src/core/types';
+import {isArray, isNumber} from '@sryoung-br/zrender/src/core/util';
+import {ElementCalculateTextPosition, ElementTextConfig} from '@sryoung-br/zrender/src/Element';
 import { Sector } from '../util/graphic';
 
 export type SectorTextPosition = BuiltinTextPosition

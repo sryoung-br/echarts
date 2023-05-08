@@ -18,7 +18,7 @@
 */
 
 import {Path} from '../graphic';
-import { PathProps } from 'zrender/src/graphic/Path';
+import { PathProps } from '@sryoung-br/zrender/src/graphic/Path';
 
 /**
  * Sausage: similar to sector, but have half circle on both sides

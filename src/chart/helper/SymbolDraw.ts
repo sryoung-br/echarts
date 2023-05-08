@@ -19,9 +19,9 @@
 
 import * as graphic from '../../util/graphic';
 import SymbolClz from './Symbol';
-import { isObject } from 'zrender/src/core/util';
+import { isObject } from '@sryoung-br/zrender/src/core/util';
 import SeriesData from '../../data/SeriesData';
-import type Displayable from 'zrender/src/graphic/Displayable';
+import type Displayable from '@sryoung-br/zrender/src/graphic/Displayable';
 import {
     StageHandlerProgressParams,
     LabelOption,
@@ -39,7 +39,7 @@ import { CoordinateSystemClipArea } from '../../coord/CoordinateSystem';
 import Model from '../../model/Model';
 import { ScatterSeriesOption } from '../scatter/ScatterSeries';
 import { getLabelStatesModels } from '../../label/labelStyle';
-import Element from 'zrender/src/Element';
+import Element from '@sryoung-br/zrender/src/Element';
 import SeriesModel from '../../model/Series';
 
 interface UpdateOpt {

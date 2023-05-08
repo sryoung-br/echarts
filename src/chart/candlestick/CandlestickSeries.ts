@@ -36,7 +36,7 @@ import {
 import SeriesData from '../../data/SeriesData';
 import Cartesian2D from '../../coord/cartesian/Cartesian2D';
 import { BrushCommonSelectorsForSeries } from '../../component/brush/selector';
-import { mixin } from 'zrender/src/core/util';
+import { mixin } from '@sryoung-br/zrender/src/core/util';
 
 type CandlestickDataValue = OptionDataValue[];
 

@@ -21,10 +21,10 @@ import GlobalModel from '../../model/Global';
 import ParallelModel, { ParallelCoordinateSystemOption } from '../../coord/parallel/ParallelModel';
 import ExtensionAPI from '../../core/ExtensionAPI';
 import ComponentView from '../../view/Component';
-import { ElementEventName } from 'zrender/src/core/types';
-import { ElementEvent } from 'zrender/src/Element';
+import { ElementEventName } from '@sryoung-br/zrender/src/core/types';
+import { ElementEvent } from '@sryoung-br/zrender/src/Element';
 import { ParallelAxisExpandPayload } from '../axis/parallelAxisAction';
-import { each, bind, extend } from 'zrender/src/core/util';
+import { each, bind, extend } from '@sryoung-br/zrender/src/core/util';
 import { ThrottleController, createOrUpdate, clear } from '../../util/throttle';
 
 const CLICK_THRESHOLD = 5; // > 4

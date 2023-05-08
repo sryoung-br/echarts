@@ -25,16 +25,16 @@ import {
     PayloadAnimationPart,
     AnimationOption
 } from '../util/types';
-import { AnimationEasing } from 'zrender/src/animation/easing';
-import Element, { ElementAnimateConfig, ElementProps } from 'zrender/src/Element';
+import { AnimationEasing } from '@sryoung-br/zrender/src/animation/easing';
+import Element, { ElementAnimateConfig, ElementProps } from '@sryoung-br/zrender/src/Element';
 import Model from '../model/Model';
 import {
     isFunction,
     isObject,
     retrieve2
-} from 'zrender/src/core/util';
-import Displayable from 'zrender/src/graphic/Displayable';
-import Group from 'zrender/src/graphic/Group';
+} from '@sryoung-br/zrender/src/core/util';
+import Displayable from '@sryoung-br/zrender/src/graphic/Displayable';
+import Group from '@sryoung-br/zrender/src/graphic/Group';
 import { makeInner } from '../util/model';
 
 // Stored properties for further transition.

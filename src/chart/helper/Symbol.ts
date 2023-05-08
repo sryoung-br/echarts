@@ -25,11 +25,11 @@ import {getDefaultLabel} from './labelHelper';
 import SeriesData from '../../data/SeriesData';
 import { ColorString, BlurScope, AnimationOption, ZRColor, AnimationOptionMixin } from '../../util/types';
 import SeriesModel from '../../model/Series';
-import { PathProps } from 'zrender/src/graphic/Path';
+import { PathProps } from '@sryoung-br/zrender/src/graphic/Path';
 import { SymbolDrawSeriesScope, SymbolDrawItemModelOption } from './SymbolDraw';
-import { extend } from 'zrender/src/core/util';
+import { extend } from '@sryoung-br/zrender/src/core/util';
 import { setLabelStyle, getLabelStatesModels } from '../../label/labelStyle';
-import ZRImage from 'zrender/src/graphic/Image';
+import ZRImage from '@sryoung-br/zrender/src/graphic/Image';
 import { saveOldStyle } from '../../animation/basicTransition';
 import Model from '../../model/Model';
 

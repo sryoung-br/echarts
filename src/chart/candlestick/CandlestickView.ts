@@ -17,11 +17,11 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import ChartView from '../../view/Chart';
 import * as graphic from '../../util/graphic';
 import { setStatesStylesFromModel } from '../../util/states';
-import Path, { PathProps } from 'zrender/src/graphic/Path';
+import Path, { PathProps } from '@sryoung-br/zrender/src/graphic/Path';
 import {createClipPath} from '../helper/createClipPathFromCoordSys';
 import CandlestickSeriesModel, { CandlestickDataItemOption } from './CandlestickSeries';
 import GlobalModel from '../../model/Global';
@@ -32,7 +32,7 @@ import {CandlestickItemLayout} from './candlestickLayout';
 import { CoordinateSystemClipArea } from '../../coord/CoordinateSystem';
 import Model from '../../model/Model';
 import { saveOldStyle } from '../../animation/basicTransition';
-import Element from 'zrender/src/Element';
+import Element from '@sryoung-br/zrender/src/Element';
 
 const SKIP_PROPS = ['color', 'borderColor'] as const;
 

@@ -18,7 +18,7 @@
 */
 
 import { EChartsExtensionInstallRegisters } from '../extension';
-import SVGPainter from 'zrender/src/svg/Painter';
+import SVGPainter from '@sryoung-br/zrender/src/svg/Painter';
 
 export function install(registers: EChartsExtensionInstallRegisters) {
     registers.registerPainter('svg', SVGPainter);

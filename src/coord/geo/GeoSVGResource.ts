@@ -17,15 +17,15 @@
 * under the License.
 */
 
-import { parseSVG, makeViewBoxTransform, SVGNodeTagLower, SVGParserResultNamedItem } from 'zrender/src/tool/parseSVG';
-import Group from 'zrender/src/graphic/Group';
-import Rect from 'zrender/src/graphic/shape/Rect';
-import {assert, createHashMap, each, HashMap} from 'zrender/src/core/util';
-import BoundingRect from 'zrender/src/core/BoundingRect';
+import { parseSVG, makeViewBoxTransform, SVGNodeTagLower, SVGParserResultNamedItem } from '@sryoung-br/zrender/src/tool/parseSVG';
+import Group from '@sryoung-br/zrender/src/graphic/Group';
+import Rect from '@sryoung-br/zrender/src/graphic/shape/Rect';
+import {assert, createHashMap, each, HashMap} from '@sryoung-br/zrender/src/core/util';
+import BoundingRect from '@sryoung-br/zrender/src/core/BoundingRect';
 import { GeoResource, GeoSVGGraphicRoot, GeoSVGSourceInput } from './geoTypes';
-import { parseXML } from 'zrender/src/tool/parseXML';
+import { parseXML } from '@sryoung-br/zrender/src/tool/parseXML';
 import { GeoSVGRegion } from './Region';
-import Element from 'zrender/src/Element';
+import Element from '@sryoung-br/zrender/src/Element';
 
 export interface GeoSVGGraphicRecord {
     root: Group;

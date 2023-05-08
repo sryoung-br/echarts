@@ -17,8 +17,8 @@
 * under the License.
 */
 
-import BoundingRect, { RectLike } from 'zrender/src/core/BoundingRect';
-import * as matrix from 'zrender/src/core/matrix';
+import BoundingRect, { RectLike } from '@sryoung-br/zrender/src/core/BoundingRect';
+import * as matrix from '@sryoung-br/zrender/src/core/matrix';
 import * as graphic from '../../util/graphic';
 import { createTextStyle } from '../../label/labelStyle';
 import * as layout from '../../util/layout';
@@ -28,24 +28,24 @@ import {createSymbol, normalizeSymbolOffset, normalizeSymbolSize} from '../../ut
 import * as numberUtil from '../../util/number';
 import GlobalModel from '../../model/Global';
 import ExtensionAPI from '../../core/ExtensionAPI';
-import { merge, each, extend, isString, bind, defaults, retrieve2 } from 'zrender/src/core/util';
+import { merge, each, extend, isString, bind, defaults, retrieve2 } from '@sryoung-br/zrender/src/core/util';
 import SliderTimelineModel from './SliderTimelineModel';
 import { LayoutOrient, ZRTextAlign, ZRTextVerticalAlign, ZRElementEvent, ScaleTick } from '../../util/types';
 import TimelineModel, { TimelineDataItemOption, TimelineCheckpointStyle } from './TimelineModel';
 import { TimelineChangePayload, TimelinePlayChangePayload } from './timelineAction';
 import Model from '../../model/Model';
-import { PathProps, PathStyleProps } from 'zrender/src/graphic/Path';
+import { PathProps, PathStyleProps } from '@sryoung-br/zrender/src/graphic/Path';
 import Scale from '../../scale/Scale';
 import OrdinalScale from '../../scale/Ordinal';
 import TimeScale from '../../scale/Time';
 import IntervalScale from '../../scale/Interval';
-import { VectorArray } from 'zrender/src/core/vector';
-import { parsePercent } from 'zrender/src/contain/text';
+import { VectorArray } from '@sryoung-br/zrender/src/core/vector';
+import { parsePercent } from '@sryoung-br/zrender/src/contain/text';
 import { makeInner } from '../../util/model';
 import { getECData } from '../../util/innerStore';
 import { enableHoverEmphasis } from '../../util/states';
 import { createTooltipMarkup } from '../tooltip/tooltipMarkup';
-import Displayable from 'zrender/src/graphic/Displayable';
+import Displayable from '@sryoung-br/zrender/src/graphic/Displayable';
 
 const PI = Math.PI;
 

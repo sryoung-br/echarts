@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import { assert, clone, createHashMap, isFunction, keys, map, reduce } from 'zrender/src/core/util';
+import { assert, clone, createHashMap, isFunction, keys, map, reduce } from '@sryoung-br/zrender/src/core/util';
 import {
     DimensionIndex,
     DimensionName,

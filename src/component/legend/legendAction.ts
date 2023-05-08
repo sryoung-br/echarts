@@ -19,7 +19,7 @@
 
 // @ts-nocheck
 
-import {curry, each} from 'zrender/src/core/util';
+import {curry, each} from '@sryoung-br/zrender/src/core/util';
 
 function legendSelectActionHandler(methodName, payload, ecModel) {
     const selectedMap = {};

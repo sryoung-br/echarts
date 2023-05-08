@@ -18,9 +18,9 @@
 */
 
 
-import Element, { ElementProps } from 'zrender/src/Element';
+import Element, { ElementProps } from '@sryoung-br/zrender/src/Element';
 import { ZREasing } from './types';
-import { AnimationEasing } from 'zrender/src/animation/easing';
+import { AnimationEasing } from '@sryoung-br/zrender/src/animation/easing';
 
 interface AnimationWrapStorage {
     el: Element;

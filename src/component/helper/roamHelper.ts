@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import Element from 'zrender/src/Element';
+import Element from '@sryoung-br/zrender/src/Element';
 
 interface ControllerHost {
     target: Element,

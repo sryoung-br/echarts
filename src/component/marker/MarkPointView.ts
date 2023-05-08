@@ -29,7 +29,7 @@ import MarkPointModel, {MarkPointDataItemOption} from './MarkPointModel';
 import GlobalModel from '../../model/Global';
 import MarkerModel from './MarkerModel';
 import ExtensionAPI from '../../core/ExtensionAPI';
-import { HashMap, isFunction, map, filter, curry, extend } from 'zrender/src/core/util';
+import { HashMap, isFunction, map, filter, curry, extend } from '@sryoung-br/zrender/src/core/util';
 import { getECData } from '../../util/innerStore';
 import { getVisualFromData } from '../../visual/helper';
 import { ZRColor } from '../../util/types';

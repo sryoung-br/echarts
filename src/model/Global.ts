@@ -36,7 +36,7 @@
 import {
     each, filter, isArray, isObject, isString,
     createHashMap, assert, clone, merge, extend, mixin, HashMap, isFunction
-} from 'zrender/src/core/util';
+} from '@sryoung-br/zrender/src/core/util';
 import * as modelUtil from '../util/model';
 import Model from './Model';
 import ComponentModel, {ComponentModelConstructor} from './Component';

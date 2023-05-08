@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import ExtensionAPI from '../core/ExtensionAPI';
 import GlobalModel from '../model/Global';
 import Model from '../model/Model';

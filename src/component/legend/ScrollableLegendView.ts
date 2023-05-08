@@ -21,7 +21,7 @@
  * Separate legend and scrollable legend to reduce package size.
  */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import * as graphic from '../../util/graphic';
 import * as layoutUtil from '../../util/layout';
 import LegendView from './LegendView';
@@ -29,8 +29,8 @@ import { LegendSelectorButtonOption } from './LegendModel';
 import ExtensionAPI from '../../core/ExtensionAPI';
 import GlobalModel from '../../model/Global';
 import ScrollableLegendModel, {ScrollableLegendOption} from './ScrollableLegendModel';
-import Displayable from 'zrender/src/graphic/Displayable';
-import Element from 'zrender/src/Element';
+import Displayable from '@sryoung-br/zrender/src/graphic/Displayable';
+import Element from '@sryoung-br/zrender/src/Element';
 import { ZRRectLike } from '../../util/types';
 
 const Group = graphic.Group;

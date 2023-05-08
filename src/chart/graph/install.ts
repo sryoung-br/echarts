@@ -31,7 +31,7 @@ import GraphView from './GraphView';
 import GraphSeriesModel from './GraphSeries';
 import { RoamPayload, updateCenterAndZoom } from '../../action/roamHelper';
 import GlobalModel from '../../model/Global';
-import { noop } from 'zrender/src/core/util';
+import { noop } from '@sryoung-br/zrender/src/core/util';
 import type ExtensionAPI from '../../core/ExtensionAPI';
 
 const actionInfo = {

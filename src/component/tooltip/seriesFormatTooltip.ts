@@ -18,7 +18,7 @@
 */
 
 import SeriesModel from '../../model/Series';
-import { trim, isArray, each, reduce } from 'zrender/src/core/util';
+import { trim, isArray, each, reduce } from '@sryoung-br/zrender/src/core/util';
 import { DimensionName, DimensionType, ColorString } from '../../util/types';
 import {
     retrieveVisualColorForTooltipMarker,

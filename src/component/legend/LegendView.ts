@@ -17,10 +17,10 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
-import { DisplayableState } from 'zrender/src/graphic/Displayable';
-import { PathStyleProps } from 'zrender/src/graphic/Path';
-import { parse, stringify } from 'zrender/src/tool/color';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
+import { DisplayableState } from '@sryoung-br/zrender/src/graphic/Displayable';
+import { PathStyleProps } from '@sryoung-br/zrender/src/graphic/Path';
+import { parse, stringify } from '@sryoung-br/zrender/src/tool/color';
 import * as graphic from '../../util/graphic';
 import { enableHoverEmphasis } from '../../util/states';
 import {setLabelStyle, createTextStyle} from '../../label/labelStyle';

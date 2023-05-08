@@ -17,8 +17,8 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
-import { Dictionary } from 'zrender/src/core/types';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
+import { Dictionary } from '@sryoung-br/zrender/src/core/types';
 import { ComponentFullType, ComponentTypeInfo, ComponentMainType, ComponentSubType } from './types';
 
 const TYPE_DELIMITER = '.';

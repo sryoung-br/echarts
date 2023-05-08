@@ -28,9 +28,9 @@ import { StageHandlerProgressParams, ParsedValue, Payload } from '../../util/typ
 import Parallel from '../../coord/parallel/Parallel';
 import { OptionAxisType } from '../../coord/axisCommonTypes';
 import { numericToNumber } from '../../util/number';
-import { eqNaN } from 'zrender/src/core/util';
+import { eqNaN } from '@sryoung-br/zrender/src/core/util';
 import { saveOldStyle } from '../../animation/basicTransition';
-import Element from 'zrender/src/Element';
+import Element from '@sryoung-br/zrender/src/Element';
 
 const DEFAULT_SMOOTH = 0.3;
 

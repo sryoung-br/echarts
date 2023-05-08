@@ -18,7 +18,7 @@
 */
 
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import GridModel from './GridModel';
 import CartesianAxisModel from './AxisModel';
 import SeriesModel from '../../model/Series';

@@ -18,7 +18,7 @@
 */
 
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import * as visualSolution from '../../visual/visualSolution';
 import Model from '../../model/Model';
 import { ComponentOption, ZRColor, VisualOptionFixed } from '../../util/types';

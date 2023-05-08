@@ -35,7 +35,7 @@ import {
 import {
     each, clone, map, isTypedArray, setAsPrimitive, isArray, isObject
     // , HashMap , createHashMap, extend, merge,
-} from 'zrender/src/core/util';
+} from '@sryoung-br/zrender/src/core/util';
 import { DatasetOption } from '../component/dataset/install';
 import { error } from '../util/log';
 

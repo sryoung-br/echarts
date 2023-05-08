@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import * as modelUtil from '../../util/model';
 import {
     ComponentOption,
@@ -30,18 +30,18 @@ import {
     AnimationOption
 } from '../../util/types';
 import ComponentModel from '../../model/Component';
-import Element, { ElementTextConfig } from 'zrender/src/Element';
-import Displayable from 'zrender/src/graphic/Displayable';
-import { PathProps, PathStyleProps } from 'zrender/src/graphic/Path';
-import { ImageStyleProps, ImageProps } from 'zrender/src/graphic/Image';
-import { TextStyleProps, TextProps } from 'zrender/src/graphic/Text';
+import Element, { ElementTextConfig } from '@sryoung-br/zrender/src/Element';
+import Displayable from '@sryoung-br/zrender/src/graphic/Displayable';
+import { PathProps, PathStyleProps } from '@sryoung-br/zrender/src/graphic/Path';
+import { ImageStyleProps, ImageProps } from '@sryoung-br/zrender/src/graphic/Image';
+import { TextStyleProps, TextProps } from '@sryoung-br/zrender/src/graphic/Text';
 import GlobalModel from '../../model/Global';
 import { copyLayoutParams, mergeLayoutParam } from '../../util/layout';
 import { TransitionOptionMixin } from '../../animation/customGraphicTransition';
 import { ElementKeyframeAnimationOption } from '../../animation/customGraphicKeyframeAnimation';
-import { GroupProps } from 'zrender/src/graphic/Group';
-import { TransformProp } from 'zrender/src/core/Transformable';
-import { ElementEventNameWithOn } from 'zrender/src/core/types';
+import { GroupProps } from '@sryoung-br/zrender/src/graphic/Group';
+import { TransformProp } from '@sryoung-br/zrender/src/core/Transformable';
+import { ElementEventNameWithOn } from '@sryoung-br/zrender/src/core/types';
 
 interface GraphicComponentBaseElementOption extends
     Partial<Pick<

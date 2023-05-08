@@ -19,14 +19,14 @@
 
 // Layout helpers for each component positioning
 
-import * as zrUtil from 'zrender/src/core/util';
-import BoundingRect from 'zrender/src/core/BoundingRect';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
+import BoundingRect from '@sryoung-br/zrender/src/core/BoundingRect';
 import {parsePercent} from './number';
 import * as formatUtil from './format';
 import { BoxLayoutOptionMixin, ComponentLayoutMode } from './types';
-import Group from 'zrender/src/graphic/Group';
-import Element from 'zrender/src/Element';
-import { Dictionary } from 'zrender/src/core/types';
+import Group from '@sryoung-br/zrender/src/graphic/Group';
+import Element from '@sryoung-br/zrender/src/Element';
+import { Dictionary } from '@sryoung-br/zrender/src/core/types';
 
 const each = zrUtil.each;
 

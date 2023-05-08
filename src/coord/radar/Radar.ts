@@ -28,7 +28,7 @@ import GlobalModel from '../../model/Global';
 import ExtensionAPI from '../../core/ExtensionAPI';
 import { ScaleDataValue } from '../../util/types';
 import { ParsedModelFinder } from '../../util/model';
-import { map, each, isString, isNumber } from 'zrender/src/core/util';
+import { map, each, isString, isNumber } from '@sryoung-br/zrender/src/core/util';
 import { alignScaleTicks } from '../axisAlignTicks';
 
 

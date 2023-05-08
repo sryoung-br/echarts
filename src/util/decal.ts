@@ -18,18 +18,18 @@
 * under the License.
 */
 
-import WeakMap from 'zrender/src/core/WeakMap';
-import { ImagePatternObject, PatternObject, SVGPatternObject } from 'zrender/src/graphic/Pattern';
-import LRU from 'zrender/src/core/LRU';
-import {defaults, map, isArray, isString, isNumber} from 'zrender/src/core/util';
+import WeakMap from '@sryoung-br/zrender/src/core/WeakMap';
+import { ImagePatternObject, PatternObject, SVGPatternObject } from '@sryoung-br/zrender/src/graphic/Pattern';
+import LRU from '@sryoung-br/zrender/src/core/LRU';
+import {defaults, map, isArray, isString, isNumber} from '@sryoung-br/zrender/src/core/util';
 import {getLeastCommonMultiple} from './number';
 import {createSymbol} from './symbol';
 import ExtensionAPI from '../core/ExtensionAPI';
-import type SVGPainter from 'zrender/src/svg/Painter';
-import { brushSingle } from 'zrender/src/canvas/graphic';
+import type SVGPainter from '@sryoung-br/zrender/src/svg/Painter';
+import { brushSingle } from '@sryoung-br/zrender/src/canvas/graphic';
 import {DecalDashArrayX, DecalDashArrayY, InnerDecalObject, DecalObject} from './types';
-import { SVGVNode } from 'zrender/src/svg/core';
-import { platformApi } from 'zrender/src/core/platform';
+import { SVGVNode } from '@sryoung-br/zrender/src/svg/core';
+import { platformApi } from '@sryoung-br/zrender/src/core/platform';
 
 const decalMap = new WeakMap<DecalObject, PatternObject>();
 

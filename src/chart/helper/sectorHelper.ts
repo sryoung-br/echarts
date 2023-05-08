@@ -18,9 +18,9 @@
 */
 
 import type Model from '../../model/Model';
-import type Sector from 'zrender/src/graphic/shape/Sector';
-import { isArray, map } from 'zrender/src/core/util';
-import { parsePercent } from 'zrender/src/contain/text';
+import type Sector from '@sryoung-br/zrender/src/graphic/shape/Sector';
+import { isArray, map } from '@sryoung-br/zrender/src/core/util';
+import { parsePercent } from '@sryoung-br/zrender/src/contain/text';
 
 export function getSectorCornerRadius(
     model: Model<{ borderRadius?: string | number | (string | number)[] }>,

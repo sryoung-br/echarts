@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import * as graphic from '../../util/graphic';
 import { toggleHoverEmphasis } from '../../util/states';
 import {createSymbol, normalizeSymbolOffset} from '../../util/symbol';
@@ -30,13 +30,13 @@ import GlobalModel from '../../model/Global';
 import Model from '../../model/Model';
 import { ColorString, AnimationOptionMixin, ECElement } from '../../util/types';
 import type Cartesian2D from '../../coord/cartesian/Cartesian2D';
-import type Displayable from 'zrender/src/graphic/Displayable';
+import type Displayable from '@sryoung-br/zrender/src/graphic/Displayable';
 import type Axis2D from '../../coord/cartesian/Axis2D';
-import type Element from 'zrender/src/Element';
+import type Element from '@sryoung-br/zrender/src/Element';
 import { getDefaultLabel } from '../helper/labelHelper';
-import { PathProps, PathStyleProps } from 'zrender/src/graphic/Path';
+import { PathProps, PathStyleProps } from '@sryoung-br/zrender/src/graphic/Path';
 import { setLabelStyle, getLabelStatesModels } from '../../label/labelStyle';
-import ZRImage from 'zrender/src/graphic/Image';
+import ZRImage from '@sryoung-br/zrender/src/graphic/Image';
 import { getECData } from '../../util/innerStore';
 
 const BAR_BORDER_WIDTH_QUERY = ['itemStyle', 'borderWidth'] as const;

@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import {createHashMap, isObject, map, HashMap, isString} from 'zrender/src/core/util';
+import {createHashMap, isObject, map, HashMap, isString} from '@sryoung-br/zrender/src/core/util';
 import Model from '../model/Model';
 import { OrdinalNumber, OrdinalRawValue } from '../util/types';
 

@@ -18,7 +18,7 @@
 */
 
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import createSeriesDataSimply from '../helper/createSeriesDataSimply';
 import SeriesModel from '../../model/Series';
 import geoSourceManager from '../../coord/geo/geoSourceManager';
@@ -36,7 +36,7 @@ import {
     StatesMixinBase,
     CallbackDataParams
 } from '../../util/types';
-import { Dictionary } from 'zrender/src/core/types';
+import { Dictionary } from '@sryoung-br/zrender/src/core/types';
 import GeoModel, { GeoCommonOptionMixin, GeoItemStyleOption } from '../../coord/geo/GeoModel';
 import SeriesData from '../../data/SeriesData';
 import Model from '../../model/Model';

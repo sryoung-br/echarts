@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import Path, { PathProps } from 'zrender/src/graphic/Path';
+import Path, { PathProps } from '@sryoung-br/zrender/src/graphic/Path';
 
 class PointerShape {
     angle = 0;

@@ -24,8 +24,8 @@ import GlobalModel from '../../model/Global';
 import ExtensionAPI from '../../core/ExtensionAPI';
 import { Dictionary, Payload, CommonAxisPointerOption, HighlightPayload, DownplayPayload } from '../../util/types';
 import AxisPointerModel, { AxisPointerOption } from './AxisPointerModel';
-import { each, curry, bind, extend, Curry1 } from 'zrender/src/core/util';
-import { ZRenderType } from 'zrender/src/zrender';
+import { each, curry, bind, extend, Curry1 } from '@sryoung-br/zrender/src/core/util';
+import { ZRenderType } from '@sryoung-br/zrender/src/zrender';
 
 const inner = makeInner<{
     axisPointerLastHighlights: Dictionary<BatchItem>

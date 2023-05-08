@@ -22,7 +22,7 @@ import ComponentView from '../../view/Component';
 import GridModel from '../../coord/cartesian/GridModel';
 import GlobalModel from '../../model/Global';
 import { Rect } from '../../util/graphic';
-import { defaults } from 'zrender/src/core/util';
+import { defaults } from '@sryoung-br/zrender/src/core/util';
 import {CartesianAxisOption, CartesianAxisModel} from '../../coord/cartesian/AxisModel';
 import axisModelCreator from '../../coord/axisModelCreator';
 import Grid from '../../coord/cartesian/Grid';

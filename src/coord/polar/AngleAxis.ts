@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import * as textContain from 'zrender/src/contain/text';
+import * as textContain from '@sryoung-br/zrender/src/contain/text';
 import Axis from '../Axis';
 import {makeInner} from '../../util/model';
 import Scale from '../../scale/Scale';

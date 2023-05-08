@@ -21,7 +21,7 @@ import SeriesModel from '../../model/Series';
 import prepareSeriesDataSchema from '../../data/helper/createDimensions';
 import {getDimensionTypeByAxis} from '../../data/helper/dimensionHelper';
 import SeriesData from '../../data/SeriesData';
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import {groupData, SINGLE_REFERRING} from '../../util/model';
 import LegendVisualProvider from '../../visual/LegendVisualProvider';
 import {

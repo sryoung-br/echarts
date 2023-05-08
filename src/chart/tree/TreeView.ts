@@ -17,12 +17,12 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import * as graphic from '../../util/graphic';
 import {getECData} from '../../util/innerStore';
 import SymbolClz from '../helper/Symbol';
 import {radialCoordinate} from './layoutHelper';
-import * as bbox from 'zrender/src/core/bbox';
+import * as bbox from '@sryoung-br/zrender/src/core/bbox';
 import View from '../../coord/View';
 import * as roamHelper from '../../component/helper/roamHelper';
 import RoamController, { RoamControllerHost } from '../../component/helper/RoamController';
@@ -30,7 +30,7 @@ import {onIrrelevantElement} from '../../component/helper/cursorHelper';
 import {parsePercent} from '../../util/number';
 import ChartView from '../../view/Chart';
 import TreeSeriesModel, { TreeSeriesOption, TreeSeriesNodeItemOption } from './TreeSeries';
-import Path, { PathProps, PathStyleProps } from 'zrender/src/graphic/Path';
+import Path, { PathProps, PathStyleProps } from '@sryoung-br/zrender/src/graphic/Path';
 import GlobalModel from '../../model/Global';
 import ExtensionAPI from '../../core/ExtensionAPI';
 import { TreeNode } from '../../data/Tree';

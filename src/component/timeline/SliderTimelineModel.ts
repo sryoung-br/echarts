@@ -19,7 +19,7 @@
 
 import TimelineModel, { TimelineOption } from './TimelineModel';
 import { DataFormatMixin } from '../../model/mixin/dataFormat';
-import { mixin } from 'zrender/src/core/util';
+import { mixin } from '@sryoung-br/zrender/src/core/util';
 import SeriesData from '../../data/SeriesData';
 import { inheritDefaultOption } from '../../util/component';
 

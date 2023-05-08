@@ -18,7 +18,7 @@
 */
 
 import createSeriesDataSimply from './createSeriesDataSimply';
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import {getDimensionTypeByAxis} from '../../data/helper/dimensionHelper';
 import {makeSeriesEncodeForAxisCoordSys} from '../../data/helper/sourceHelper';
 import type { SeriesOption, SeriesOnCartesianOptionMixin, LayoutOrient } from '../../util/types';

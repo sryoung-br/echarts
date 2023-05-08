@@ -17,13 +17,13 @@
 * under the License.
 */
 
-import Eventful from 'zrender/src/core/Eventful';
-import * as eventTool from 'zrender/src/core/event';
+import Eventful from '@sryoung-br/zrender/src/core/Eventful';
+import * as eventTool from '@sryoung-br/zrender/src/core/event';
 import * as interactionMutex from './interactionMutex';
-import { ZRenderType } from 'zrender/src/zrender';
+import { ZRenderType } from '@sryoung-br/zrender/src/zrender';
 import { ZRElementEvent, RoamOptionMixin } from '../../util/types';
-import { Bind3, isString, bind, defaults, clone } from 'zrender/src/core/util';
-import Group from 'zrender/src/graphic/Group';
+import { Bind3, isString, bind, defaults, clone } from '@sryoung-br/zrender/src/core/util';
+import Group from '@sryoung-br/zrender/src/graphic/Group';
 
 // Can be null/undefined or true/false
 // or 'pan/move' or 'zoom'/'scale'

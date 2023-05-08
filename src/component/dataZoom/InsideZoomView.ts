@@ -23,7 +23,7 @@ import * as roams from './roams';
 import InsideZoomModel from './InsideZoomModel';
 import GlobalModel from '../../model/Global';
 import ExtensionAPI from '../../core/ExtensionAPI';
-import { bind } from 'zrender/src/core/util';
+import { bind } from '@sryoung-br/zrender/src/core/util';
 import RoamController, {RoamEventParams} from '../helper/RoamController';
 import { AxisBaseModel } from '../../coord/AxisBaseModel';
 import Polar from '../../coord/polar/Polar';

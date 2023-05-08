@@ -29,8 +29,8 @@ import {
     indexOf,
     isStringSafe,
     isNumber
-} from 'zrender/src/core/util';
-import env from 'zrender/src/core/env';
+} from '@sryoung-br/zrender/src/core/util';
+import env from '@sryoung-br/zrender/src/core/env';
 import GlobalModel from '../model/Global';
 import ComponentModel, {ComponentModelConstructor} from '../model/Component';
 import SeriesData from '../data/SeriesData';
@@ -47,7 +47,7 @@ import {
     OptionName,
     InterpolatableValue
 } from './types';
-import { Dictionary } from 'zrender/src/core/types';
+import { Dictionary } from '@sryoung-br/zrender/src/core/types';
 import SeriesModel from '../model/Series';
 import CartesianAxisModel from '../coord/cartesian/AxisModel';
 import GridModel from '../coord/cartesian/GridModel';

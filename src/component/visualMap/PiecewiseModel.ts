@@ -17,13 +17,13 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import VisualMapModel, { VisualMapOption, VisualMeta } from './VisualMapModel';
 import VisualMapping, { VisualMappingOption } from '../../visual/VisualMapping';
 import visualDefault from '../../visual/visualDefault';
 import {reformIntervals} from '../../util/number';
 import { VisualOptionPiecewise, BuiltinVisualProperty } from '../../util/types';
-import { Dictionary } from 'zrender/src/core/types';
+import { Dictionary } from '@sryoung-br/zrender/src/core/types';
 import { inheritDefaultOption } from '../../util/component';
 
 

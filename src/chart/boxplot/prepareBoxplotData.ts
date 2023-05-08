@@ -18,7 +18,7 @@
 */
 
 import { quantile, asc } from '../../util/number';
-import { isFunction, isString } from 'zrender/src/core/util';
+import { isFunction, isString } from '@sryoung-br/zrender/src/core/util';
 
 export interface PrepareBoxplotDataOpt {
     boundIQR?: number | 'none';

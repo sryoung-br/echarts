@@ -21,7 +21,7 @@ import { EChartsExtensionInstallRegisters } from '../../extension';
 import PictorialBarView from './PictorialBarView';
 import PictorialBarSeriesModel from './PictorialBarSeries';
 import { createProgressiveLayout, layout } from '../../layout/barGrid';
-import { curry } from 'zrender/src/core/util';
+import { curry } from '@sryoung-br/zrender/src/core/util';
 
 export function install(registers: EChartsExtensionInstallRegisters) {
     registers.registerChartView(PictorialBarView);

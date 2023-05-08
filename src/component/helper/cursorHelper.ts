@@ -18,7 +18,7 @@
 */
 
 
-import { ElementEvent } from 'zrender/src/Element';
+import { ElementEvent } from '@sryoung-br/zrender/src/Element';
 import ExtensionAPI from '../../core/ExtensionAPI';
 import SeriesModel from '../../model/Series';
 import { CoordinateSystem } from '../../coord/CoordinateSystem';

@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import { each, createHashMap, merge, HashMap, assert } from 'zrender/src/core/util';
+import { each, createHashMap, merge, HashMap, assert } from '@sryoung-br/zrender/src/core/util';
 import AxisProxy from './AxisProxy';
 import ComponentModel from '../../model/Component';
 import {

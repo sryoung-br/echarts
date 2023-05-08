@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import RoamController from './RoamController';
 import * as roamHelper from '../../component/helper/roamHelper';
 import {onIrrelevantElement} from '../../component/helper/cursorHelper';
@@ -41,14 +41,14 @@ import Model from '../../model/Model';
 import { setLabelStyle, getLabelStatesModels } from '../../label/labelStyle';
 import { getECData } from '../../util/innerStore';
 import { createOrUpdatePatternFromDecal } from '../../util/decal';
-import ZRText, {TextStyleProps} from 'zrender/src/graphic/Text';
+import ZRText, {TextStyleProps} from '@sryoung-br/zrender/src/graphic/Text';
 import { ViewCoordSysTransformInfoPart } from '../../coord/View';
 import { GeoSVGGraphicRecord, GeoSVGResource } from '../../coord/geo/GeoSVGResource';
-import Displayable from 'zrender/src/graphic/Displayable';
-import Element from 'zrender/src/Element';
+import Displayable from '@sryoung-br/zrender/src/graphic/Displayable';
+import Element from '@sryoung-br/zrender/src/Element';
 import SeriesData from '../../data/SeriesData';
 import { GeoJSONRegion } from '../../coord/geo/Region';
-import { SVGNodeTagLower } from 'zrender/src/tool/parseSVG';
+import { SVGNodeTagLower } from '@sryoung-br/zrender/src/tool/parseSVG';
 import { makeInner } from '../../util/model';
 import { GeoProjection, ProjectionStream } from '../../coord/geo/geoTypes';
 

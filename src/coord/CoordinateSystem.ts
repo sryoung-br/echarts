@@ -23,9 +23,9 @@ import ExtensionAPI from '../core/ExtensionAPI';
 import { DimensionDefinitionLoose, ScaleDataValue, DimensionName } from '../util/types';
 import Axis from './Axis';
 import { BoundingRect } from '../util/graphic';
-import { MatrixArray } from 'zrender/src/core/matrix';
+import { MatrixArray } from '@sryoung-br/zrender/src/core/matrix';
 import ComponentModel from '../model/Component';
-import { RectLike } from 'zrender/src/core/BoundingRect';
+import { RectLike } from '@sryoung-br/zrender/src/core/BoundingRect';
 import type { PrepareCustomInfo } from '../chart/custom/CustomSeries';
 
 

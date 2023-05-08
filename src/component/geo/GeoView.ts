@@ -26,7 +26,7 @@ import GeoModel from '../../coord/geo/GeoModel';
 import { Payload, ZRElementEvent, ECEventData } from '../../util/types';
 import { getECData } from '../../util/innerStore';
 import { findEventDispatcher } from '../../util/event';
-import Element from 'zrender/src/Element';
+import Element from '@sryoung-br/zrender/src/Element';
 
 class GeoView extends ComponentView {
 

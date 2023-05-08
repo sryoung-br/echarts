@@ -21,7 +21,7 @@ import { install as installAxisPointer } from '../axisPointer/install';
 import { EChartsExtensionInstallRegisters, use } from '../../extension';
 import TooltipModel from './TooltipModel';
 import TooltipView from './TooltipView';
-import { noop } from 'zrender/src/core/util';
+import { noop } from '@sryoung-br/zrender/src/core/util';
 
 export function install(registers: EChartsExtensionInstallRegisters) {
     use(installAxisPointer);

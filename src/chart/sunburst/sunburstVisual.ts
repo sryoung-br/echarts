@@ -17,8 +17,8 @@
 * under the License.
 */
 
-import { lift } from 'zrender/src/tool/color';
-import { extend, isString } from 'zrender/src/core/util';
+import { lift } from '@sryoung-br/zrender/src/tool/color';
+import { extend, isString } from '@sryoung-br/zrender/src/core/util';
 import GlobalModel from '../../model/Global';
 import SunburstSeriesModel, { SunburstSeriesNodeItemOption } from './SunburstSeries';
 import { Dictionary, ColorString } from '../../util/types';

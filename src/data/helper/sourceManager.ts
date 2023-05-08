@@ -21,7 +21,7 @@ import { DatasetModel } from '../../component/dataset/install';
 import SeriesModel from '../../model/Series';
 import {
     setAsPrimitive, map, isTypedArray, assert, each, retrieve2
-} from 'zrender/src/core/util';
+} from '@sryoung-br/zrender/src/core/util';
 import { SourceMetaRawOption, Source, createSource, cloneSourceShallow } from '../Source';
 import {
     SeriesEncodableModel, OptionSourceData,

@@ -18,11 +18,11 @@
 */
 
 
-import BoundingRect, { RectLike } from 'zrender/src/core/BoundingRect';
+import BoundingRect, { RectLike } from '@sryoung-br/zrender/src/core/BoundingRect';
 import {onIrrelevantElement} from './cursorHelper';
 import * as graphicUtil from '../../util/graphic';
 import ExtensionAPI from '../../core/ExtensionAPI';
-import { ElementEvent } from 'zrender/src/Element';
+import { ElementEvent } from '@sryoung-br/zrender/src/Element';
 import ComponentModel from '../../model/Component';
 
 export function makeRectPanelClipPath(rect: RectLike) {

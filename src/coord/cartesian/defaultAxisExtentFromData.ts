@@ -18,7 +18,7 @@
 */
 
 import * as echarts from '../../core/echarts';
-import { createHashMap, each, HashMap, hasOwn, keys, map } from 'zrender/src/core/util';
+import { createHashMap, each, HashMap, hasOwn, keys, map } from '@sryoung-br/zrender/src/core/util';
 import SeriesModel from '../../model/Series';
 import { isCartesian2DSeries, findAxisModels } from './cartesianAxisHelper';
 import { getDataDimensionsOnAxis, unionAxisExtentFromData } from '../axisHelper';

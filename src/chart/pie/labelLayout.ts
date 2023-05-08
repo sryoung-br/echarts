@@ -20,12 +20,12 @@
 // FIXME emphasis label position is not same with normal label position
 import {parsePercent} from '../../util/number';
 import PieSeriesModel, { PieSeriesOption, PieDataItemOption } from './PieSeries';
-import { VectorArray } from 'zrender/src/core/vector';
+import { VectorArray } from '@sryoung-br/zrender/src/core/vector';
 import { HorizontalAlign, ZRTextAlign } from '../../util/types';
 import { Sector, Polyline, Point } from '../../util/graphic';
-import ZRText from 'zrender/src/graphic/Text';
-import BoundingRect, {RectLike} from 'zrender/src/core/BoundingRect';
-import { each, isNumber } from 'zrender/src/core/util';
+import ZRText from '@sryoung-br/zrender/src/graphic/Text';
+import BoundingRect, {RectLike} from '@sryoung-br/zrender/src/core/BoundingRect';
+import { each, isNumber } from '@sryoung-br/zrender/src/core/util';
 import { limitTurnAngle, limitSurfaceAngle } from '../../label/labelGuideHelper';
 import { shiftLayoutOnY } from '../../label/labelLayoutHelper';
 

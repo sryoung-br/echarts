@@ -33,10 +33,10 @@ import {
     DefaultEmphasisFocus,
     BlurScope
 } from '../../util/types';
-import Displayable from 'zrender/src/graphic/Displayable';
+import Displayable from '@sryoung-br/zrender/src/graphic/Displayable';
 import Model from '../../model/Model';
 import { getLabelStatesModels } from '../../label/labelStyle';
-import Element from 'zrender/src/Element';
+import Element from '@sryoung-br/zrender/src/Element';
 
 interface LineLike extends graphic.Group {
     updateData(data: SeriesData, idx: number, scope?: LineDrawSeriesScope): void

@@ -18,7 +18,7 @@
 */
 
 import SeriesData from '../../data/SeriesData';
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import {defaultEmphasis} from '../../util/model';
 import Model from '../../model/Model';
 import createGraphFromNodeEdge from '../helper/createGraphFromNodeEdge';
@@ -48,7 +48,7 @@ import {
 import SeriesModel from '../../model/Series';
 import Graph from '../../data/Graph';
 import GlobalModel from '../../model/Global';
-import { VectorArray } from 'zrender/src/core/vector';
+import { VectorArray } from '@sryoung-br/zrender/src/core/vector';
 import { ForceLayoutInstance } from './forceLayout';
 import { LineDataVisual } from '../../visual/commonVisualTypes';
 import { createTooltipMarkup } from '../../component/tooltip/tooltipMarkup';

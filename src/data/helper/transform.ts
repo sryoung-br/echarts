@@ -27,7 +27,7 @@ import {
 import { normalizeToArray } from '../../util/model';
 import {
     createHashMap, bind, each, hasOwn, map, clone, isObject, extend, isNumber
-} from 'zrender/src/core/util';
+} from '@sryoung-br/zrender/src/core/util';
 import {
     getRawSourceItemGetter, getRawSourceDataCounter, getRawSourceValueGetter
 } from './dataProvider';

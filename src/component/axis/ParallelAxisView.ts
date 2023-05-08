@@ -18,7 +18,7 @@
 */
 
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import AxisBuilder from './AxisBuilder';
 import BrushController, {
     BrushCoverConfig, BrushControllerEvents, BrushDimensionMinMax

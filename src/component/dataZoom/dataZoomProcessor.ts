@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import {createHashMap, each} from 'zrender/src/core/util';
+import {createHashMap, each} from '@sryoung-br/zrender/src/core/util';
 import SeriesModel from '../../model/Series';
 import DataZoomModel, { DataZoomExtendedAxisBaseModel } from './DataZoomModel';
 import { getAxisMainType, DataZoomAxisDimension } from './helper';

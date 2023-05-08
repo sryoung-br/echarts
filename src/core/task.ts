@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import {assert, isArray} from 'zrender/src/core/util';
+import {assert, isArray} from '@sryoung-br/zrender/src/core/util';
 import SeriesModel from '../model/Series';
 import { Pipeline } from './Scheduler';
 import { Payload } from '../util/types';

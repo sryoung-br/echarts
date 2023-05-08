@@ -21,7 +21,7 @@
  * This module exposes helper functions for developing extensions.
  */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import createSeriesData from '../../chart/helper/createSeriesData';
 // import createGraphFromNodeEdge from './chart/helper/createGraphFromNodeEdge';
 import * as axisHelper from '../../coord/axisHelper';

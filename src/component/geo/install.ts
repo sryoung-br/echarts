@@ -21,7 +21,7 @@ import { EChartsExtensionInstallRegisters } from '../../extension';
 import GeoModel from '../../coord/geo/GeoModel';
 import geoCreator from '../../coord/geo/geoCreator';
 import { ActionInfo } from '../../util/types';
-import { each } from 'zrender/src/core/util';
+import { each } from '@sryoung-br/zrender/src/core/util';
 import GlobalModel from '../../model/Global';
 import { updateCenterAndZoom, RoamPayload } from '../../action/roamHelper';
 import MapSeries from '../../chart/map/MapSeries';

@@ -17,10 +17,10 @@
 * under the License.
 */
 
-import ZRText from 'zrender/src/graphic/Text';
+import ZRText from '@sryoung-br/zrender/src/graphic/Text';
 import { LabelLayoutOption } from '../util/types';
 import { BoundingRect, OrientedBoundingRect, Polyline } from '../util/graphic';
-import type Element from 'zrender/src/Element';
+import type Element from '@sryoung-br/zrender/src/Element';
 
 interface LabelLayoutListPrepareInput {
     label: ZRText

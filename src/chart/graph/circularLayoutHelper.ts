@@ -18,13 +18,13 @@
 */
 
 
-import * as vec2 from 'zrender/src/core/vector';
+import * as vec2 from '@sryoung-br/zrender/src/core/vector';
 import {getSymbolSize, getNodeGlobalScale} from './graphHelper';
 import GraphSeriesModel, { GraphEdgeItemOption, GraphNodeItemOption } from './GraphSeries';
 import Graph, { GraphNode } from '../../data/Graph';
 import Symbol from '../helper/Symbol';
 import SeriesData from '../../data/SeriesData';
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import {getCurvenessForEdge} from '../helper/multipleGraphEdgeHelper';
 
 const PI = Math.PI;

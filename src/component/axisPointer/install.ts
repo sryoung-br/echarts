@@ -22,7 +22,7 @@ import AxisView from '../axis/AxisView';
 import CartesianAxisPointer from './CartesianAxisPointer';
 import AxisPointerModel from './AxisPointerModel';
 import AxisPointerView from './AxisPointerView';
-import { isArray } from 'zrender/src/core/util';
+import { isArray } from '@sryoung-br/zrender/src/core/util';
 import { collect } from './modelHelper';
 import axisTrigger from './axisTrigger';
 

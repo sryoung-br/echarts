@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import {each, isString} from 'zrender/src/core/util';
+import {each, isString} from '@sryoung-br/zrender/src/core/util';
 import SeriesDimensionDefine from '../SeriesDimensionDefine';
 import SeriesModel from '../../model/Series';
 import SeriesData, { DataCalculationInfo } from '../SeriesData';

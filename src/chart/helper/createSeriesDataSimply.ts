@@ -19,7 +19,7 @@
 
 import prepareSeriesDataSchema, {PrepareSeriesDataSchemaParams} from '../../data/helper/createDimensions';
 import SeriesData from '../../data/SeriesData';
-import {extend, isArray} from 'zrender/src/core/util';
+import {extend, isArray} from '@sryoung-br/zrender/src/core/util';
 import SeriesModel from '../../model/Series';
 
 /**

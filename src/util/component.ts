@@ -17,10 +17,10 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import {parseClassType, ClassManager} from './clazz';
 import { ComponentOption, ComponentMainType, ComponentSubType, ComponentFullType } from './types';
-import { Dictionary } from 'zrender/src/core/types';
+import { Dictionary } from '@sryoung-br/zrender/src/core/types';
 import { makePrintable } from './log';
 
 // A random offset

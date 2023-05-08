@@ -23,7 +23,7 @@ import { PiecewiseVisualMapOption } from './PiecewiseModel';
 import { ContinousVisualMapOption } from './ContinuousModel';
 import { visualMapActionInfo, visualMapActionHander } from './visualMapAction';
 import { visualMapEncodingHandlers } from './visualEncoding';
-import { each } from 'zrender/src/core/util';
+import { each } from '@sryoung-br/zrender/src/core/util';
 import preprocessor from './preprocessor';
 
 let installed = false;

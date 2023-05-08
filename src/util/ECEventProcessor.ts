@@ -18,14 +18,14 @@
 */
 
 
-import { EventProcessor, EventQuery } from 'zrender/src/core/Eventful';
+import { EventProcessor, EventQuery } from '@sryoung-br/zrender/src/core/Eventful';
 import { ECActionEvent, NormalizedEventQuery, EventQueryItem, ECElementEvent } from './types';
 import ComponentModel from '../model/Component';
 import ComponentView from '../view/Component';
 import ChartView from '../view/Chart';
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import { parseClassType } from './clazz';
-import Element from 'zrender/src/Element';
+import Element from '@sryoung-br/zrender/src/Element';
 
 /**
  * Usage of query:

@@ -18,7 +18,7 @@
 */
 
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import * as modelUtil from '../../util/model';
 import ComponentModel from '../../model/Component';
 import Model from '../../model/Model';

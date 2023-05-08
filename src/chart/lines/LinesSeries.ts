@@ -21,7 +21,7 @@
 
 import SeriesModel from '../../model/Series';
 import SeriesData from '../../data/SeriesData';
-import { concatArray, mergeAll, map, isNumber } from 'zrender/src/core/util';
+import { concatArray, mergeAll, map, isNumber } from '@sryoung-br/zrender/src/core/util';
 import CoordinateSystem from '../../core/CoordinateSystem';
 import {
     SeriesOption,

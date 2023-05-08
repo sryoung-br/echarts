@@ -37,7 +37,7 @@ import {
     ScaleTick
 } from '../util/types';
 import { CategoryAxisBaseOption } from '../coord/axisCommonTypes';
-import { isArray, map, isObject, isString } from 'zrender/src/core/util';
+import { isArray, map, isObject, isString } from '@sryoung-br/zrender/src/core/util';
 
 type OrdinalScaleSetting = {
     ordinalMeta?: OrdinalMeta | CategoryAxisBaseOption['data'];

@@ -20,7 +20,7 @@
 import { Payload } from '../../util/types';
 import GlobalModel from '../../model/Global';
 import DataZoomModel from './DataZoomModel';
-import { indexOf, createHashMap, assert, HashMap } from 'zrender/src/core/util';
+import { indexOf, createHashMap, assert, HashMap } from '@sryoung-br/zrender/src/core/util';
 import SeriesModel from '../../model/Series';
 import { CoordinateSystemHostModel } from '../../coord/CoordinateSystem';
 import { AxisBaseModel } from '../../coord/AxisBaseModel';

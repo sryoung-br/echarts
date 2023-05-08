@@ -17,10 +17,10 @@
 * under the License.
 */
 
-import Displayable from 'zrender/src/graphic/Displayable';
-import { ImageProps, ImageStyleProps } from 'zrender/src/graphic/Image';
-import { PathProps, PathStyleProps } from 'zrender/src/graphic/Path';
-import { ZRenderType } from 'zrender/src/zrender';
+import Displayable from '@sryoung-br/zrender/src/graphic/Displayable';
+import { ImageProps, ImageStyleProps } from '@sryoung-br/zrender/src/graphic/Image';
+import { PathProps, PathStyleProps } from '@sryoung-br/zrender/src/graphic/Path';
+import { ZRenderType } from '@sryoung-br/zrender/src/zrender';
 import { BarGridLayoutOptionForCustomSeries, BarGridLayoutResult } from '../../layout/barGrid';
 import {
     AnimationOption,
@@ -44,7 +44,7 @@ import {
     TextCommonOption,
     ZRStyleProps
 } from '../../util/types';
-import Element from 'zrender/src/Element';
+import Element from '@sryoung-br/zrender/src/Element';
 import SeriesData, { DefaultDataVisual } from '../../data/SeriesData';
 import GlobalModel from '../../model/Global';
 import createSeriesData from '../helper/createSeriesData';
@@ -64,14 +64,14 @@ import {
     Ring,
     Sector
 } from '../../util/graphic';
-import { TextProps, TextStyleProps } from 'zrender/src/graphic/Text';
-import { GroupProps } from 'zrender/src/graphic/Group';
+import { TextProps, TextStyleProps } from '@sryoung-br/zrender/src/graphic/Text';
+import { GroupProps } from '@sryoung-br/zrender/src/graphic/Group';
 import {
     TransitionOptionMixin,
     TransitionBaseDuringAPI,
     TransitionDuringAPI
 } from '../../animation/customGraphicTransition';
-import { TransformProp } from 'zrender/src/core/Transformable';
+import { TransformProp } from '@sryoung-br/zrender/src/core/Transformable';
 import { ElementKeyframeAnimationOption } from '../../animation/customGraphicKeyframeAnimation';
 
 export type CustomExtraElementInfo = Dictionary<unknown>;

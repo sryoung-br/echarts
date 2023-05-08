@@ -17,11 +17,11 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
-import { Dictionary } from 'zrender/src/core/types';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
+import { Dictionary } from '@sryoung-br/zrender/src/core/types';
 import SeriesData from './SeriesData';
 import Model from '../model/Model';
-import Element from 'zrender/src/Element';
+import Element from '@sryoung-br/zrender/src/Element';
 import { DimensionLoose, ParsedValue } from '../util/types';
 
 // id may be function name of Object, add a prefix to avoid this problem.

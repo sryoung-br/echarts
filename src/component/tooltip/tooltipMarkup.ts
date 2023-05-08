@@ -25,7 +25,7 @@ import {
     TooltipMarkerType, getTooltipMarker, encodeHTML,
     makeValueReadable, convertToColorString
 } from '../../util/format';
-import { isString, each, hasOwn, isArray, map, assert, extend } from 'zrender/src/core/util';
+import { isString, each, hasOwn, isArray, map, assert, extend } from '@sryoung-br/zrender/src/core/util';
 import { SortOrderComparator } from '../../data/helper/dataValueHelper';
 import SeriesModel from '../../model/Series';
 import { getRandomIdBase } from '../../util/number';

@@ -19,7 +19,7 @@
 
 import GlobalModel from './Global';
 import { ComponentOption, ComponentMainType } from '../util/types';
-import { createHashMap, assert } from 'zrender/src/core/util';
+import { createHashMap, assert } from '@sryoung-br/zrender/src/core/util';
 import { isComponentIdInternal } from '../util/model';
 
 // PNEDING:

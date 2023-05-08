@@ -21,7 +21,7 @@
 import {retrieveRawValue} from '../../data/helper/dataProvider';
 import SeriesData from '../../data/SeriesData';
 import { InterpolatableValue } from '../../util/types';
-import { isArray } from 'zrender/src/core/util';
+import { isArray } from '@sryoung-br/zrender/src/core/util';
 
 /**
  * @return label string. Not null/undefined

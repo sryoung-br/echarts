@@ -18,13 +18,13 @@
 */
 
 
-import BoundingRect from 'zrender/src/core/BoundingRect';
-import * as vec2 from 'zrender/src/core/vector';
-import * as polygonContain from 'zrender/src/contain/polygon';
+import BoundingRect from '@sryoung-br/zrender/src/core/BoundingRect';
+import * as vec2 from '@sryoung-br/zrender/src/core/vector';
+import * as polygonContain from '@sryoung-br/zrender/src/contain/polygon';
 import { GeoJSON, GeoProjection, GeoSVGGraphicRoot } from './geoTypes';
-import * as matrix from 'zrender/src/core/matrix';
-import Element from 'zrender/src/Element';
-import { each } from 'zrender/src/core/util';
+import * as matrix from '@sryoung-br/zrender/src/core/matrix';
+import Element from '@sryoung-br/zrender/src/Element';
+import { each } from '@sryoung-br/zrender/src/core/util';
 
 const TMP_TRANSFORM = [] as number[];
 

@@ -18,7 +18,7 @@
 */
 
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import BrushController, { BrushControllerEvents, BrushCoverConfig } from '../helper/BrushController';
 import {layoutCovers} from './visualEncoding';
 import BrushModel from './BrushModel';

@@ -19,7 +19,7 @@
 
 import GlobalModel from '../../model/Global';
 import TreeSeriesModel, { TreeSeriesNodeItemOption } from './TreeSeries';
-import { extend } from 'zrender/src/core/util';
+import { extend } from '@sryoung-br/zrender/src/core/util';
 
 export default function treeVisual(ecModel: GlobalModel) {
 

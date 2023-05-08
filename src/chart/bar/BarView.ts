@@ -17,12 +17,12 @@
 * under the License.
 */
 
-import Path, {PathProps} from 'zrender/src/graphic/Path';
-import Group from 'zrender/src/graphic/Group';
-import {extend, each, map} from 'zrender/src/core/util';
-import {BuiltinTextPosition} from 'zrender/src/core/types';
-import {SectorProps} from 'zrender/src/graphic/shape/Sector';
-import {RectProps} from 'zrender/src/graphic/shape/Rect';
+import Path, {PathProps} from '@sryoung-br/zrender/src/graphic/Path';
+import Group from '@sryoung-br/zrender/src/graphic/Group';
+import {extend, each, map} from '@sryoung-br/zrender/src/core/util';
+import {BuiltinTextPosition} from '@sryoung-br/zrender/src/core/types';
+import {SectorProps} from '@sryoung-br/zrender/src/graphic/shape/Sector';
+import {RectProps} from '@sryoung-br/zrender/src/graphic/shape/Rect';
 import {
     Rect,
     Sector,
@@ -63,11 +63,11 @@ import SeriesModel from '../../model/Series';
 import {AngleAxisModel, RadiusAxisModel} from '../../coord/polar/AxisModel';
 import CartesianAxisModel from '../../coord/cartesian/AxisModel';
 import {LayoutRect} from '../../util/layout';
-import {EventCallback} from 'zrender/src/core/Eventful';
+import {EventCallback} from '@sryoung-br/zrender/src/core/Eventful';
 import { warn } from '../../util/log';
 import {createSectorCalculateTextPosition, SectorTextPosition, setSectorTextRotation} from '../../label/sectorLabel';
 import { saveOldStyle } from '../../animation/basicTransition';
-import Element from 'zrender/src/Element';
+import Element from '@sryoung-br/zrender/src/Element';
 import { getSectorCornerRadius } from '../helper/sectorHelper';
 
 const mathMax = Math.max;

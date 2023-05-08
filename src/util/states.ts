@@ -18,12 +18,12 @@
 * under the License.
 */
 
-import { Dictionary } from 'zrender/src/core/types';
-import LRU from 'zrender/src/core/LRU';
-import Displayable, { DisplayableState } from 'zrender/src/graphic/Displayable';
-import { PatternObject } from 'zrender/src/graphic/Pattern';
-import { GradientObject } from 'zrender/src/graphic/Gradient';
-import Element, { ElementEvent } from 'zrender/src/Element';
+import { Dictionary } from '@sryoung-br/zrender/src/core/types';
+import LRU from '@sryoung-br/zrender/src/core/LRU';
+import Displayable, { DisplayableState } from '@sryoung-br/zrender/src/graphic/Displayable';
+import { PatternObject } from '@sryoung-br/zrender/src/graphic/Pattern';
+import { GradientObject } from '@sryoung-br/zrender/src/graphic/Gradient';
+import Element, { ElementEvent } from '@sryoung-br/zrender/src/Element';
 import Model from '../model/Model';
 import {
     SeriesDataType,
@@ -49,14 +49,14 @@ import {
     isString,
     isGradientObject,
     map
-} from 'zrender/src/core/util';
+} from '@sryoung-br/zrender/src/core/util';
 import { getECData } from './innerStore';
-import * as colorTool from 'zrender/src/tool/color';
+import * as colorTool from '@sryoung-br/zrender/src/tool/color';
 import SeriesData from '../data/SeriesData';
 import SeriesModel from '../model/Series';
 import { CoordinateSystemMaster, CoordinateSystem } from '../coord/CoordinateSystem';
 import { queryDataIndex, makeInner } from './model';
-import Path, { PathStyleProps } from 'zrender/src/graphic/Path';
+import Path, { PathStyleProps } from '@sryoung-br/zrender/src/graphic/Path';
 import GlobalModel from '../model/Global';
 import ExtensionAPI from '../core/ExtensionAPI';
 import ComponentModel from '../model/Component';

@@ -19,12 +19,12 @@
 
 /* global Uint8Array, document */
 
-import env from 'zrender/src/core/env';
+import env from '@sryoung-br/zrender/src/core/env';
 import { ToolboxFeature, ToolboxFeatureOption } from '../featureManager';
 import { ZRColor } from '../../../util/types';
 import GlobalModel from '../../../model/Global';
 import ExtensionAPI from '../../../core/ExtensionAPI';
-import { isFunction } from 'zrender/src/core/util';
+import { isFunction } from '@sryoung-br/zrender/src/core/util';
 
 export interface ToolboxSaveAsImageFeatureOption extends ToolboxFeatureOption {
     icon?: string

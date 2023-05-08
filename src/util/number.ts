@@ -26,7 +26,7 @@
 * </licenses/LICENSE-d3>).
 */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 
 const RADIAN_EPSILON = 1e-4;
 // Although chrome already enlarge this number to 100 for `toFixed`, but

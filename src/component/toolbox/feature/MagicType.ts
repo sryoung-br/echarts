@@ -18,7 +18,7 @@
 */
 
 import * as echarts from '../../../core/echarts';
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import {ToolboxFeature, ToolboxFeatureOption, ToolboxFeatureModel} from '../featureManager';
 import { SeriesOption, ECUnitOption } from '../../../util/types';
 import GlobalModel from '../../../model/Global';

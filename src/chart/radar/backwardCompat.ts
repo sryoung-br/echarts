@@ -20,7 +20,7 @@
 // @ts-nocheck
 
 // Backward compat for radar chart in 2
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 
 export default function radarBackwardCompat(option) {
     let polarOptArr = option.polar;

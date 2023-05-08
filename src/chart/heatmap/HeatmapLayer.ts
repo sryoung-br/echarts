@@ -19,7 +19,7 @@
 
 /* global Uint8ClampedArray */
 
-import { platformApi } from 'zrender/src/core/platform';
+import { platformApi } from '@sryoung-br/zrender/src/core/platform';
 
 const GRADIENT_LEVELS = 256;
 

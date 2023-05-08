@@ -19,9 +19,9 @@
 
 // TODO Parse shadow style
 // TODO Only shallow path support
-import * as zrUtil from 'zrender/src/core/util';
-import {Dictionary} from 'zrender/src/core/types';
-import {PathStyleProps} from 'zrender/src/graphic/Path';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
+import {Dictionary} from '@sryoung-br/zrender/src/core/types';
+import {PathStyleProps} from '@sryoung-br/zrender/src/graphic/Path';
 import Model from '../Model';
 
 export default function makeStyleMapper(properties: readonly string[][], ignoreParent?: boolean) {

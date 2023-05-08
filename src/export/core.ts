@@ -31,10 +31,10 @@ use(installLabelLayout);
 
 // Export necessary types
 export {ZRColor as Color, Payload, ECElementEvent} from '../util/types';
-export {LinearGradientObject} from 'zrender/src/graphic/LinearGradient';
-export {RadialGradientObject} from 'zrender/src/graphic/RadialGradient';
-export {PatternObject, ImagePatternObject, SVGPatternObject} from 'zrender/src/graphic/Pattern';
-export {ElementEvent} from 'zrender/src/Element';
+export {LinearGradientObject} from '@sryoung-br/zrender/src/graphic/LinearGradient';
+export {RadialGradientObject} from '@sryoung-br/zrender/src/graphic/RadialGradient';
+export {PatternObject, ImagePatternObject, SVGPatternObject} from '@sryoung-br/zrender/src/graphic/Pattern';
+export {ElementEvent} from '@sryoung-br/zrender/src/Element';
 
 // ComposeOption
 import type { ComponentOption, ECBasicOption as EChartsCoreOption } from '../util/types';

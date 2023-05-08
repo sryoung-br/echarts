@@ -29,7 +29,7 @@ import { makeInner } from '../../util/model';
 import { Dictionary, ZRElementEvent } from '../../util/types';
 import ExtensionAPI from '../../core/ExtensionAPI';
 import InsideZoomModel from './InsideZoomModel';
-import { each, curry, Curry1, HashMap, createHashMap } from 'zrender/src/core/util';
+import { each, curry, Curry1, HashMap, createHashMap } from '@sryoung-br/zrender/src/core/util';
 import {
     DataZoomPayloadBatchItem, collectReferCoordSysModelInfo,
     DataZoomCoordSysMainType, DataZoomReferCoordSysInfo

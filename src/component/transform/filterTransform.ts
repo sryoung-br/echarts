@@ -22,7 +22,7 @@ import {
 } from '../../data/helper/transform';
 import { DimensionIndex } from '../../util/types';
 import { parseConditionalExpression, ConditionalExpressionOption } from '../../util/conditionalExpression';
-import { hasOwn, createHashMap } from 'zrender/src/core/util';
+import { hasOwn, createHashMap } from '@sryoung-br/zrender/src/core/util';
 import { makePrintable, throwError } from '../../util/log';
 
 

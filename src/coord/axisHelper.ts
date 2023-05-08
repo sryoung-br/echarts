@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import OrdinalScale from '../scale/Ordinal';
 import IntervalScale from '../scale/Interval';
 import Scale from '../scale/Scale';
@@ -26,7 +26,7 @@ import {
     makeColumnLayout,
     retrieveColumnLayout
 } from '../layout/barGrid';
-import BoundingRect, { RectLike } from 'zrender/src/core/BoundingRect';
+import BoundingRect, { RectLike } from '@sryoung-br/zrender/src/core/BoundingRect';
 
 import TimeScale from '../scale/Time';
 import Model from '../model/Model';

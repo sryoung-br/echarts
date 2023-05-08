@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import {createHashMap, each} from 'zrender/src/core/util';
+import {createHashMap, each} from '@sryoung-br/zrender/src/core/util';
 import GlobalModel from '../model/Global';
 import SeriesModel from '../model/Series';
 import { SeriesOption, SeriesStackOptionMixin } from '../util/types';

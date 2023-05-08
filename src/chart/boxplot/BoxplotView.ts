@@ -17,11 +17,11 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import ChartView from '../../view/Chart';
 import * as graphic from '../../util/graphic';
 import { setStatesStylesFromModel, toggleHoverEmphasis } from '../../util/states';
-import Path, { PathProps } from 'zrender/src/graphic/Path';
+import Path, { PathProps } from '@sryoung-br/zrender/src/graphic/Path';
 import BoxplotSeriesModel, { BoxplotDataItemOption } from './BoxplotSeries';
 import GlobalModel from '../../model/Global';
 import ExtensionAPI from '../../core/ExtensionAPI';

@@ -17,12 +17,12 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import * as numberUtil from '../../util/number';
 import GlobalModel from '../../model/Global';
 import ExtensionAPI from '../../core/ExtensionAPI';
 import ThemeRiverSeriesModel, { ThemeRiverSeriesOption } from './ThemeRiverSeries';
-import { RectLike } from 'zrender/src/core/BoundingRect';
+import { RectLike } from '@sryoung-br/zrender/src/core/BoundingRect';
 import SeriesData from '../../data/SeriesData';
 
 export interface ThemeRiverLayoutInfo {

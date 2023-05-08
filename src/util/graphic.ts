@@ -17,35 +17,35 @@
 * under the License.
 */
 
-import * as pathTool from 'zrender/src/tool/path';
-import * as matrix from 'zrender/src/core/matrix';
-import * as vector from 'zrender/src/core/vector';
-import Path, { PathProps } from 'zrender/src/graphic/Path';
-import Transformable from 'zrender/src/core/Transformable';
-import ZRImage, { ImageStyleProps } from 'zrender/src/graphic/Image';
-import Group from 'zrender/src/graphic/Group';
-import ZRText from 'zrender/src/graphic/Text';
-import Circle from 'zrender/src/graphic/shape/Circle';
-import Ellipse from 'zrender/src/graphic/shape/Ellipse';
-import Sector from 'zrender/src/graphic/shape/Sector';
-import Ring from 'zrender/src/graphic/shape/Ring';
-import Polygon from 'zrender/src/graphic/shape/Polygon';
-import Polyline from 'zrender/src/graphic/shape/Polyline';
-import Rect from 'zrender/src/graphic/shape/Rect';
-import Line from 'zrender/src/graphic/shape/Line';
-import BezierCurve from 'zrender/src/graphic/shape/BezierCurve';
-import Arc from 'zrender/src/graphic/shape/Arc';
-import CompoundPath from 'zrender/src/graphic/CompoundPath';
-import LinearGradient from 'zrender/src/graphic/LinearGradient';
-import RadialGradient from 'zrender/src/graphic/RadialGradient';
-import BoundingRect from 'zrender/src/core/BoundingRect';
-import OrientedBoundingRect from 'zrender/src/core/OrientedBoundingRect';
-import Point from 'zrender/src/core/Point';
-import IncrementalDisplayable from 'zrender/src/graphic/IncrementalDisplayable';
-import * as subPixelOptimizeUtil from 'zrender/src/graphic/helper/subPixelOptimize';
-import { Dictionary } from 'zrender/src/core/types';
-import Displayable, { DisplayableProps } from 'zrender/src/graphic/Displayable';
-import Element from 'zrender/src/Element';
+import * as pathTool from '@sryoung-br/zrender/src/tool/path';
+import * as matrix from '@sryoung-br/zrender/src/core/matrix';
+import * as vector from '@sryoung-br/zrender/src/core/vector';
+import Path, { PathProps } from '@sryoung-br/zrender/src/graphic/Path';
+import Transformable from '@sryoung-br/zrender/src/core/Transformable';
+import ZRImage, { ImageStyleProps } from '@sryoung-br/zrender/src/graphic/Image';
+import Group from '@sryoung-br/zrender/src/graphic/Group';
+import ZRText from '@sryoung-br/zrender/src/graphic/Text';
+import Circle from '@sryoung-br/zrender/src/graphic/shape/Circle';
+import Ellipse from '@sryoung-br/zrender/src/graphic/shape/Ellipse';
+import Sector from '@sryoung-br/zrender/src/graphic/shape/Sector';
+import Ring from '@sryoung-br/zrender/src/graphic/shape/Ring';
+import Polygon from '@sryoung-br/zrender/src/graphic/shape/Polygon';
+import Polyline from '@sryoung-br/zrender/src/graphic/shape/Polyline';
+import Rect from '@sryoung-br/zrender/src/graphic/shape/Rect';
+import Line from '@sryoung-br/zrender/src/graphic/shape/Line';
+import BezierCurve from '@sryoung-br/zrender/src/graphic/shape/BezierCurve';
+import Arc from '@sryoung-br/zrender/src/graphic/shape/Arc';
+import CompoundPath from '@sryoung-br/zrender/src/graphic/CompoundPath';
+import LinearGradient from '@sryoung-br/zrender/src/graphic/LinearGradient';
+import RadialGradient from '@sryoung-br/zrender/src/graphic/RadialGradient';
+import BoundingRect from '@sryoung-br/zrender/src/core/BoundingRect';
+import OrientedBoundingRect from '@sryoung-br/zrender/src/core/OrientedBoundingRect';
+import Point from '@sryoung-br/zrender/src/core/Point';
+import IncrementalDisplayable from '@sryoung-br/zrender/src/graphic/IncrementalDisplayable';
+import * as subPixelOptimizeUtil from '@sryoung-br/zrender/src/graphic/helper/subPixelOptimize';
+import { Dictionary } from '@sryoung-br/zrender/src/core/types';
+import Displayable, { DisplayableProps } from '@sryoung-br/zrender/src/graphic/Displayable';
+import Element from '@sryoung-br/zrender/src/Element';
 import Model from '../model/Model';
 import {
     AnimationOptionMixin,
@@ -64,7 +64,7 @@ import {
     each,
     hasOwn,
     isArray
-} from 'zrender/src/core/util';
+} from '@sryoung-br/zrender/src/core/util';
 import { getECData } from './innerStore';
 import ComponentModel from '../model/Component';
 

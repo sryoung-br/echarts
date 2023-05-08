@@ -28,7 +28,7 @@ import OrdinalMeta from '../data/OrdinalMeta';
 import { DimensionName, BoxLayoutOptionMixin, OrdinalRawValue } from '../util/types';
 import { AxisBaseOption, AXIS_TYPES, CategoryAxisBaseOption } from './axisCommonTypes';
 import GlobalModel from '../model/Global';
-import { each, merge } from 'zrender/src/core/util';
+import { each, merge } from '@sryoung-br/zrender/src/core/util';
 import { EChartsExtensionInstallRegisters } from '../extension';
 
 

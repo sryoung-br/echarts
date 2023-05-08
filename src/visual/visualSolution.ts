@@ -21,9 +21,9 @@
  * @file Visual solution, for consistent option specification.
  */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import VisualMapping, { VisualMappingOption } from './VisualMapping';
-import { Dictionary } from 'zrender/src/core/types';
+import { Dictionary } from '@sryoung-br/zrender/src/core/types';
 import {
     BuiltinVisualProperty,
     ParsedValue,

@@ -19,7 +19,7 @@
 
 import { ParsedValue, DimensionType } from '../../util/types';
 import { parseDate, numericToNumber } from '../../util/number';
-import { createHashMap, trim, hasOwn, isString, isNumber } from 'zrender/src/core/util';
+import { createHashMap, trim, hasOwn, isString, isNumber } from '@sryoung-br/zrender/src/core/util';
 import { throwError } from '../../util/log';
 
 

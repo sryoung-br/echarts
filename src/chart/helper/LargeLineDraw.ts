@@ -20,14 +20,14 @@
 // TODO Batch by color
 
 import * as graphic from '../../util/graphic';
-import * as lineContain from 'zrender/src/contain/line';
-import * as quadraticContain from 'zrender/src/contain/quadratic';
-import { PathProps } from 'zrender/src/graphic/Path';
+import * as lineContain from '@sryoung-br/zrender/src/contain/line';
+import * as quadraticContain from '@sryoung-br/zrender/src/contain/quadratic';
+import { PathProps } from '@sryoung-br/zrender/src/graphic/Path';
 import SeriesData from '../../data/SeriesData';
 import { StageHandlerProgressParams, LineStyleOption, ColorString } from '../../util/types';
 import Model from '../../model/Model';
 import { getECData } from '../../util/innerStore';
-import Element from 'zrender/src/Element';
+import Element from '@sryoung-br/zrender/src/Element';
 
 class LargeLinesPathShape {
     polyline = false;

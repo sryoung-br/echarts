@@ -33,7 +33,7 @@ import polarCreator from '../../coord/polar/polarCreator';
 import AngleAxisView from '../axis/AngleAxisView';
 import RadiusAxisView from '../axis/RadiusAxisView';
 import ComponentView from '../../view/Component';
-import { curry } from 'zrender/src/core/util';
+import { curry } from '@sryoung-br/zrender/src/core/util';
 import barLayoutPolar from '../../layout/barPolar';
 
 

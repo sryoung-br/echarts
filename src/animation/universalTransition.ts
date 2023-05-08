@@ -20,10 +20,10 @@
 // Universal transitions that can animate between any shapes(series) and any properties in any amounts.
 
 import SeriesModel, { SERIES_UNIVERSAL_TRANSITION_PROP } from '../model/Series';
-import {createHashMap, each, map, filter, isArray, extend} from 'zrender/src/core/util';
-import Element, { ElementAnimateConfig } from 'zrender/src/Element';
+import {createHashMap, each, map, filter, isArray, extend} from '@sryoung-br/zrender/src/core/util';
+import Element, { ElementAnimateConfig } from '@sryoung-br/zrender/src/Element';
 import { applyMorphAnimation, getPathList } from './morphTransitionHelper';
-import Path from 'zrender/src/graphic/Path';
+import Path from '@sryoung-br/zrender/src/graphic/Path';
 import { EChartsExtensionInstallRegisters } from '../extension';
 import { initProps } from '../util/graphic';
 import DataDiffer from '../data/DataDiffer';
@@ -39,7 +39,7 @@ import { warn } from '../util/log';
 import ExtensionAPI from '../core/ExtensionAPI';
 import { getAnimationConfig, getOldStyle } from './basicTransition';
 import Model from '../model/Model';
-import Displayable from 'zrender/src/graphic/Displayable';
+import Displayable from '@sryoung-br/zrender/src/graphic/Displayable';
 
 const DATA_COUNT_THRESHOLD = 1e4;
 

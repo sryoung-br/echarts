@@ -17,13 +17,13 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import ExtensionAPI from '../../core/ExtensionAPI';
-import { ZRenderType } from 'zrender/src/zrender';
+import { ZRenderType } from '@sryoung-br/zrender/src/zrender';
 import { TooltipOption } from './TooltipModel';
 import { ZRColor } from '../../util/types';
 import Model from '../../model/Model';
-import ZRText, { TextStyleProps } from 'zrender/src/graphic/Text';
+import ZRText, { TextStyleProps } from '@sryoung-br/zrender/src/graphic/Text';
 import { TooltipMarkupStyleCreator, getPaddingFromTooltipModel } from './tooltipMarkup';
 import { throwError } from '../../util/log';
 

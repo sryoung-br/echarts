@@ -21,7 +21,7 @@
  * Tree data structure
  */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import Model from '../model/Model';
 import linkSeriesData from './helper/linkSeriesData';
 import SeriesData from './SeriesData';
@@ -30,7 +30,7 @@ import {
     DimensionLoose, ParsedValue, OptionDataValue,
     OptionDataItemObject
 } from '../util/types';
-import { Dictionary } from 'zrender/src/core/types';
+import { Dictionary } from '@sryoung-br/zrender/src/core/types';
 import { convertOptionIdName } from '../util/model';
 
 type TreeTraverseOrder = 'preorder' | 'postorder';

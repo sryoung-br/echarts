@@ -20,11 +20,11 @@
 import {subPixelOptimize} from '../../util/graphic';
 import createRenderPlanner from '../helper/createRenderPlanner';
 import {parsePercent} from '../../util/number';
-import {map, retrieve2} from 'zrender/src/core/util';
+import {map, retrieve2} from '@sryoung-br/zrender/src/core/util';
 import { DimensionIndex, StageHandler, StageHandlerProgressParams } from '../../util/types';
 import CandlestickSeriesModel, { CandlestickDataItemOption } from './CandlestickSeries';
 import SeriesData from '../../data/SeriesData';
-import { RectLike } from 'zrender/src/core/BoundingRect';
+import { RectLike } from '@sryoung-br/zrender/src/core/BoundingRect';
 import DataStore from '../../data/DataStore';
 import { createFloat32Array } from '../../util/vendor';
 

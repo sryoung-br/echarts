@@ -17,12 +17,12 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
-import { encodeHTML } from 'zrender/src/core/dom';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
+import { encodeHTML } from '@sryoung-br/zrender/src/core/dom';
 import { parseDate, isNumeric, numericToNumber } from './number';
 import { TooltipRenderMode, ColorString, ZRColor, DimensionType } from './types';
-import { Dictionary } from 'zrender/src/core/types';
-import { GradientObject } from 'zrender/src/graphic/Gradient';
+import { Dictionary } from '@sryoung-br/zrender/src/core/types';
+import { GradientObject } from '@sryoung-br/zrender/src/graphic/Gradient';
 import { format as timeFormat, pad } from './time';
 import { deprecateReplaceLog } from './log';
 
@@ -312,7 +312,7 @@ export function convertToColorString(color: ZRColor, defaultColor?: ColorString)
         : defaultColor;
 }
 
-export {truncateText} from 'zrender/src/graphic/helper/parseText';
+export {truncateText} from '@sryoung-br/zrender/src/graphic/helper/parseText';
 
 /**
  * open new tab

@@ -19,14 +19,14 @@
 
 // TODO Optimize on polar
 
-import * as colorUtil from 'zrender/src/tool/color';
+import * as colorUtil from '@sryoung-br/zrender/src/tool/color';
 import SeriesData from '../../data/SeriesData';
 import * as numberUtil from '../../util/number';
 import * as graphic from '../../util/graphic';
 import { toggleHoverEmphasis, setStatesStylesFromModel } from '../../util/states';
 import * as markerHelper from './markerHelper';
 import MarkerView from './MarkerView';
-import { retrieve, mergeAll, map, curry, filter, HashMap, extend, isString } from 'zrender/src/core/util';
+import { retrieve, mergeAll, map, curry, filter, HashMap, extend, isString } from '@sryoung-br/zrender/src/core/util';
 import { ScaleDataValue, ZRColor } from '../../util/types';
 import { CoordinateSystem, isCoordinateSystemType } from '../../coord/CoordinateSystem';
 import MarkAreaModel, { MarkArea2DDataItemOption } from './MarkAreaModel';

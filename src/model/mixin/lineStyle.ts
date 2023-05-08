@@ -20,7 +20,7 @@
 import makeStyleMapper from './makeStyleMapper';
 import Model from '../Model';
 import { LineStyleOption } from '../../util/types';
-import { PathStyleProps } from 'zrender/src/graphic/Path';
+import { PathStyleProps } from '@sryoung-br/zrender/src/graphic/Path';
 
 export const LINE_STYLE_KEY_MAP = [
     ['lineWidth', 'width'],

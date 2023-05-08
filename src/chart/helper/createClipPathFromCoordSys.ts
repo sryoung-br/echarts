@@ -24,7 +24,7 @@ import { SeriesOption } from '../../util/types';
 import type Cartesian2D from '../../coord/cartesian/Cartesian2D';
 import type Polar from '../../coord/polar/Polar';
 import { CoordinateSystem } from '../../coord/CoordinateSystem';
-import { isFunction } from 'zrender/src/core/util';
+import { isFunction } from '@sryoung-br/zrender/src/core/util';
 
 type SeriesModelWithLineWidth = SeriesModel<SeriesOption & {
     lineStyle?: { width?: number }

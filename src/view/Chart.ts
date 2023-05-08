@@ -17,8 +17,8 @@
 * under the License.
 */
 
-import {each} from 'zrender/src/core/util';
-import Group from 'zrender/src/graphic/Group';
+import {each} from '@sryoung-br/zrender/src/core/util';
+import Group from '@sryoung-br/zrender/src/graphic/Group';
 import * as componentUtil from '../util/component';
 import * as clazzUtil from '../util/clazz';
 import * as modelUtil from '../util/model';
@@ -28,7 +28,7 @@ import createRenderPlanner from '../chart/helper/createRenderPlanner';
 import SeriesModel from '../model/Series';
 import GlobalModel from '../model/Global';
 import ExtensionAPI from '../core/ExtensionAPI';
-import Element from 'zrender/src/Element';
+import Element from '@sryoung-br/zrender/src/Element';
 import {
     Payload, ViewRootGroup, ECActionEvent, EventQueryItem,
     StageHandlerPlanReturn, DisplayState, StageHandlerProgressParams, ECElementEvent

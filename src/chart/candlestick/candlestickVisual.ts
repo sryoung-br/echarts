@@ -21,7 +21,7 @@ import createRenderPlanner from '../helper/createRenderPlanner';
 import { StageHandler } from '../../util/types';
 import CandlestickSeriesModel, { CandlestickDataItemOption } from './CandlestickSeries';
 import Model from '../../model/Model';
-import { extend } from 'zrender/src/core/util';
+import { extend } from '@sryoung-br/zrender/src/core/util';
 
 const positiveBorderColorQuery = ['itemStyle', 'borderColor'] as const;
 const negativeBorderColorQuery = ['itemStyle', 'borderColor0'] as const;

@@ -18,20 +18,20 @@
 */
 
 // Helpers for creating transitions in custom series and graphic components.
-import Element, { ElementAnimateConfig, ElementProps } from 'zrender/src/Element';
+import Element, { ElementAnimateConfig, ElementProps } from '@sryoung-br/zrender/src/Element';
 
 import { makeInner, normalizeToArray } from '../util/model';
-import { assert, bind, each, eqNaN, extend, hasOwn, indexOf, isArrayLike, keys, reduce } from 'zrender/src/core/util';
-import { cloneValue } from 'zrender/src/animation/Animator';
-import Displayable, { DisplayableProps } from 'zrender/src/graphic/Displayable';
+import { assert, bind, each, eqNaN, extend, hasOwn, indexOf, isArrayLike, keys, reduce } from '@sryoung-br/zrender/src/core/util';
+import { cloneValue } from '@sryoung-br/zrender/src/animation/Animator';
+import Displayable, { DisplayableProps } from '@sryoung-br/zrender/src/graphic/Displayable';
 import Model from '../model/Model';
 import { getAnimationConfig } from './basicTransition';
 import { Path } from '../util/graphic';
 import { warn } from '../util/log';
 import { AnimationOption, AnimationOptionMixin, ZRStyleProps } from '../util/types';
-import { Dictionary } from 'zrender/src/core/types';
-import { PathStyleProps } from 'zrender/src/graphic/Path';
-import { TRANSFORMABLE_PROPS, TransformProp } from 'zrender/src/core/Transformable';
+import { Dictionary } from '@sryoung-br/zrender/src/core/types';
+import { PathStyleProps } from '@sryoung-br/zrender/src/graphic/Path';
+import { TRANSFORMABLE_PROPS, TransformProp } from '@sryoung-br/zrender/src/core/Transformable';
 
 const LEGACY_TRANSFORM_PROPS_MAP = {
     position: ['x', 'y'],

@@ -24,14 +24,14 @@ import {
     DividePath,
     isCombineMorphing,
     SeparateConfig
-} from 'zrender/src/tool/morphPath';
+} from '@sryoung-br/zrender/src/tool/morphPath';
 import { Path } from '../util/graphic';
 import SeriesModel from '../model/Series';
-import Element, { ElementAnimateConfig } from 'zrender/src/Element';
-import { defaults, isArray} from 'zrender/src/core/util';
+import Element, { ElementAnimateConfig } from '@sryoung-br/zrender/src/Element';
+import { defaults, isArray} from '@sryoung-br/zrender/src/core/util';
 import { getAnimationConfig } from './basicTransition';
 import { ECElement, UniversalTransitionOption } from '../util/types';
-import { clonePath } from 'zrender/src/tool/path';
+import { clonePath } from '@sryoung-br/zrender/src/tool/path';
 import Model from '../model/Model';
 
 

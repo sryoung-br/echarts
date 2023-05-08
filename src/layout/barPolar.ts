@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import {parsePercent} from '../util/number';
 import {isDimensionStacked} from '../data/helper/dataStackHelper';
 import type BarSeriesModel from '../chart/bar/BarSeries';

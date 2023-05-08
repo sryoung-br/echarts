@@ -24,7 +24,7 @@ import {
     DimensionLoose, DimensionIndex, OptionDataValue, SOURCE_FORMAT_ARRAY_ROWS, SOURCE_FORMAT_OBJECT_ROWS
 } from '../../util/types';
 import { makePrintable, throwError } from '../../util/log';
-import { each } from 'zrender/src/core/util';
+import { each } from '@sryoung-br/zrender/src/core/util';
 import { normalizeToArray } from '../../util/model';
 import {
     RawValueParserType, getRawValueParser, SortOrderComparator

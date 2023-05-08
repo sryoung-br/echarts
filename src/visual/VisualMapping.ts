@@ -17,10 +17,10 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
-import * as zrColor from 'zrender/src/tool/color';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
+import * as zrColor from '@sryoung-br/zrender/src/tool/color';
 import {linearMap} from '../util/number';
-import { AllPropTypes, Dictionary } from 'zrender/src/core/types';
+import { AllPropTypes, Dictionary } from '@sryoung-br/zrender/src/core/types';
 import {
     ColorString,
     BuiltinVisualProperty,

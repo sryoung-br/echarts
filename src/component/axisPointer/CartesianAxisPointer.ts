@@ -25,7 +25,7 @@ import ExtensionAPI from '../../core/ExtensionAPI';
 import { ScaleDataValue, VerticalAlign, HorizontalAlign, CommonAxisPointerOption } from '../../util/types';
 import Grid from '../../coord/cartesian/Grid';
 import Axis2D from '../../coord/cartesian/Axis2D';
-import { PathProps } from 'zrender/src/graphic/Path';
+import { PathProps } from '@sryoung-br/zrender/src/graphic/Path';
 import Model from '../../model/Model';
 
 // Not use top level axisPointer model

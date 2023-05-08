@@ -17,19 +17,19 @@
 * under the License.
 */
 
-import { isString, indexOf, each, bind, isArray, isDom } from 'zrender/src/core/util';
-import { normalizeEvent } from 'zrender/src/core/event';
-import { transformLocalCoord } from 'zrender/src/core/dom';
-import env from 'zrender/src/core/env';
+import { isString, indexOf, each, bind, isArray, isDom } from '@sryoung-br/zrender/src/core/util';
+import { normalizeEvent } from '@sryoung-br/zrender/src/core/event';
+import { transformLocalCoord } from '@sryoung-br/zrender/src/core/dom';
+import env from '@sryoung-br/zrender/src/core/env';
 import { convertToColorString, toCamelCase, normalizeCssArray } from '../../util/format';
 import type ExtensionAPI from '../../core/ExtensionAPI';
-import type { ZRenderType } from 'zrender/src/zrender';
+import type { ZRenderType } from '@sryoung-br/zrender/src/zrender';
 import type { TooltipOption } from './TooltipModel';
 import Model from '../../model/Model';
-import type { ZRRawEvent } from 'zrender/src/core/types';
+import type { ZRRawEvent } from '@sryoung-br/zrender/src/core/types';
 import type { ZRColor } from '../../util/types';
-import type CanvasPainter from 'zrender/src/canvas/Painter';
-import type SVGPainter from 'zrender/src/svg/Painter';
+import type CanvasPainter from '@sryoung-br/zrender/src/canvas/Painter';
+import type SVGPainter from '@sryoung-br/zrender/src/svg/Painter';
 import {
     shouldTooltipConfine,
     toCSSVendorPrefix,

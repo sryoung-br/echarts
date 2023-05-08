@@ -19,7 +19,7 @@
 
 
 
-import { isArray } from 'zrender/src/core/util';
+import { isArray } from '@sryoung-br/zrender/src/core/util';
 import { EChartsExtensionInstallRegisters } from '../../extension';
 import { GraphicComponentModel, GraphicComponentOption } from './GraphicModel';
 import { GraphicComponentView } from './GraphicView';

@@ -18,7 +18,7 @@
 */
 
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import { ECUnitOption, Dictionary } from '../../util/types';
 import { BrushOption, BrushToolboxIconType } from './BrushModel';
 import { ToolboxOption } from '../toolbox/ToolboxModel';

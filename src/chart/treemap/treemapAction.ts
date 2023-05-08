@@ -21,9 +21,9 @@ import * as helper from '../helper/treeHelper';
 import { Payload } from '../../util/types';
 import TreemapSeriesModel from './TreemapSeries';
 import { TreeNode } from '../../data/Tree';
-import { RectLike } from 'zrender/src/core/BoundingRect';
+import { RectLike } from '@sryoung-br/zrender/src/core/BoundingRect';
 import { EChartsExtensionInstallRegisters } from '../../extension';
-import { noop } from 'zrender/src/core/util';
+import { noop } from '@sryoung-br/zrender/src/core/util';
 
 const actionTypes = [
     'treemapZoomToNode',

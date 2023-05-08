@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import {each, map} from 'zrender/src/core/util';
+import {each, map} from '@sryoung-br/zrender/src/core/util';
 import {linearMap, getPixelPrecision, round} from '../util/number';
 import {
     createAxisTicks,

@@ -19,7 +19,7 @@
 
 import GlobalModel from '../../model/Global';
 import GraphSeriesModel, { GraphEdgeItemOption } from './GraphSeries';
-import { extend } from 'zrender/src/core/util';
+import { extend } from '@sryoung-br/zrender/src/core/util';
 
 function normalize(a: string | string[]): string[];
 function normalize(a: number | number[]): number[];

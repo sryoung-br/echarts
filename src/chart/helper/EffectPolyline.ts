@@ -19,7 +19,7 @@
 
 import Polyline from './Polyline';
 import EffectLine, {ECSymbolOnEffectLine} from './EffectLine';
-import * as vec2 from 'zrender/src/core/vector';
+import * as vec2 from '@sryoung-br/zrender/src/core/vector';
 import { LineDrawSeriesScope } from './LineDraw';
 import SeriesData from '../../data/SeriesData';
 

@@ -17,14 +17,14 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import VisualMapView from './VisualMapView';
 import * as graphic from '../../util/graphic';
 import {createSymbol} from '../../util/symbol';
 import * as layout from '../../util/layout';
 import * as helper from './helper';
 import PiecewiseModel from './PiecewiseModel';
-import { TextAlign } from 'zrender/src/core/types';
+import { TextAlign } from '@sryoung-br/zrender/src/core/types';
 import { VisualMappingOption } from '../../visual/VisualMapping';
 import { createTextStyle } from '../../label/labelStyle';
 

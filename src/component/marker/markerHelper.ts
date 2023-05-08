@@ -22,7 +22,7 @@ import {isDimensionStacked} from '../../data/helper/dataStackHelper';
 import SeriesModel from '../../model/Series';
 import SeriesData from '../../data/SeriesData';
 import { MarkerStatisticType, MarkerPositionOption } from './MarkerModel';
-import { indexOf, curry, clone, isArray } from 'zrender/src/core/util';
+import { indexOf, curry, clone, isArray } from '@sryoung-br/zrender/src/core/util';
 import Axis from '../../coord/Axis';
 import { CoordinateSystem } from '../../coord/CoordinateSystem';
 import { ScaleDataValue, ParsedValue, DimensionLoose, DimensionName } from '../../util/types';

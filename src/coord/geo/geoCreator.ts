@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import Geo, { geo2DDimensions } from './Geo';
 import * as layout from '../../util/layout';
 import * as numberUtil from '../../util/number';
@@ -28,12 +28,12 @@ import ExtensionAPI from '../../core/ExtensionAPI';
 import { CoordinateSystemCreator } from '../CoordinateSystem';
 import { NameMap } from './geoTypes';
 import { SeriesOption, SeriesOnGeoOptionMixin } from '../../util/types';
-import { Dictionary } from 'zrender/src/core/types';
+import { Dictionary } from '@sryoung-br/zrender/src/core/types';
 import type Model from '../../model/Model';
 import type GlobalModel from '../../model/Global';
 import type SeriesModel from '../../model/Series';
 import type ComponentModel from '../../model/Component';
-import * as vector from 'zrender/src/core/vector';
+import * as vector from '@sryoung-br/zrender/src/core/vector';
 
 export type resizeGeoType = typeof resizeGeo;
 

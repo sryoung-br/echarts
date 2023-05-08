@@ -17,8 +17,8 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
-import env from 'zrender/src/core/env';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
+import env from '@sryoung-br/zrender/src/core/env';
 import { DataFormatMixin } from '../../model/mixin/dataFormat';
 import ComponentModel from '../../model/Component';
 import SeriesModel from '../../model/Series';

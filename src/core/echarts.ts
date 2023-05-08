@@ -16,7 +16,7 @@
 * specific language governing permissions and limitations
 * under the License.
 */
-import * as zrender from 'zrender/src/zrender';
+import * as zrender from '@sryoung-br/zrender/src/zrender';
 import {
     assert,
     each,
@@ -36,11 +36,11 @@ import {
     noop,
     isString,
     retrieve2
-} from 'zrender/src/core/util';
-import env from 'zrender/src/core/env';
-import timsort from 'zrender/src/core/timsort';
-import Eventful, { EventCallbackSingleParam } from 'zrender/src/core/Eventful';
-import Element, { ElementEvent } from 'zrender/src/Element';
+} from '@sryoung-br/zrender/src/core/util';
+import env from '@sryoung-br/zrender/src/core/env';
+import timsort from '@sryoung-br/zrender/src/core/timsort';
+import Eventful, { EventCallbackSingleParam } from '@sryoung-br/zrender/src/core/Eventful';
+import Element, { ElementEvent } from '@sryoung-br/zrender/src/Element';
 import GlobalModel, {QueryConditionKindA, GlobalModelSetOptionOpts} from '../model/Global';
 import ExtensionAPI from './ExtensionAPI';
 import CoordinateSystemManager from './CoordinateSystem';
@@ -109,7 +109,7 @@ import {
     ECElementEvent,
     AnimationOption
 } from '../util/types';
-import Displayable from 'zrender/src/graphic/Displayable';
+import Displayable from '@sryoung-br/zrender/src/graphic/Displayable';
 import { seriesSymbolTask, dataSymbolTask } from '../visual/symbol';
 import { getVisualFromData, getItemVisualFromData } from '../visual/helper';
 import { deprecateLog, deprecateReplaceLog, error, warn } from '../util/log';
@@ -121,15 +121,15 @@ import { createLocaleObject, SYSTEM_LANG, LocaleOption } from './locale';
 import type {EChartsOption} from '../export/option';
 import { findEventDispatcher } from '../util/event';
 import decal from '../visual/decal';
-import CanvasPainter from 'zrender/src/canvas/Painter';
-import SVGPainter from 'zrender/src/svg/Painter';
+import CanvasPainter from '@sryoung-br/zrender/src/canvas/Painter';
+import SVGPainter from '@sryoung-br/zrender/src/svg/Painter';
 import lifecycle, {
     LifecycleEvents,
     UpdateLifecycleTransitionItem,
     UpdateLifecycleParams,
     UpdateLifecycleTransitionOpt
 } from './lifecycle';
-import { platformApi, setPlatformAPI } from 'zrender/src/core/platform';
+import { platformApi, setPlatformAPI } from '@sryoung-br/zrender/src/core/platform';
 import { getImpl } from './impl';
 import type geoSourceManager from '../coord/geo/geoSourceManager';
 

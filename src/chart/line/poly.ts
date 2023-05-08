@@ -19,9 +19,9 @@
 
 // Poly path support NaN point
 
-import Path, { PathProps } from 'zrender/src/graphic/Path';
-import PathProxy from 'zrender/src/core/PathProxy';
-import { cubicRootAt, cubicAt } from 'zrender/src/core/curve';
+import Path, { PathProps } from '@sryoung-br/zrender/src/graphic/Path';
+import PathProxy from '@sryoung-br/zrender/src/core/PathProxy';
+import { cubicRootAt, cubicAt } from '@sryoung-br/zrender/src/core/curve';
 
 const mathMin = Math.min;
 const mathMax = Math.max;

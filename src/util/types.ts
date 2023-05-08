@@ -25,26 +25,26 @@
  * be put in this file.
  */
 
-import Group from 'zrender/src/graphic/Group';
-import Element, {ElementEvent, ElementTextConfig} from 'zrender/src/Element';
+import Group from '@sryoung-br/zrender/src/graphic/Group';
+import Element, {ElementEvent, ElementTextConfig} from '@sryoung-br/zrender/src/Element';
 import { DataFormatMixin } from '../model/mixin/dataFormat';
 import GlobalModel from '../model/Global';
 import ExtensionAPI from '../core/ExtensionAPI';
 import SeriesModel from '../model/Series';
-import { createHashMap, HashMap } from 'zrender/src/core/util';
+import { createHashMap, HashMap } from '@sryoung-br/zrender/src/core/util';
 import { TaskPlanCallbackReturn, TaskProgressParams } from '../core/task';
 import SeriesData from '../data/SeriesData';
-import { Dictionary, ElementEventName, ImageLike, TextAlign, TextVerticalAlign } from 'zrender/src/core/types';
-import { PatternObject } from 'zrender/src/graphic/Pattern';
+import { Dictionary, ElementEventName, ImageLike, TextAlign, TextVerticalAlign } from '@sryoung-br/zrender/src/core/types';
+import { PatternObject } from '@sryoung-br/zrender/src/graphic/Pattern';
 import { TooltipMarker } from './format';
-import { AnimationEasing } from 'zrender/src/animation/easing';
-import { LinearGradientObject } from 'zrender/src/graphic/LinearGradient';
-import { RadialGradientObject } from 'zrender/src/graphic/RadialGradient';
-import { RectLike } from 'zrender/src/core/BoundingRect';
-import { TSpanStyleProps } from 'zrender/src/graphic/TSpan';
-import { PathStyleProps } from 'zrender/src/graphic/Path';
-import { ImageStyleProps } from 'zrender/src/graphic/Image';
-import ZRText, { TextStyleProps } from 'zrender/src/graphic/Text';
+import { AnimationEasing } from '@sryoung-br/zrender/src/animation/easing';
+import { LinearGradientObject } from '@sryoung-br/zrender/src/graphic/LinearGradient';
+import { RadialGradientObject } from '@sryoung-br/zrender/src/graphic/RadialGradient';
+import { RectLike } from '@sryoung-br/zrender/src/core/BoundingRect';
+import { TSpanStyleProps } from '@sryoung-br/zrender/src/graphic/TSpan';
+import { PathStyleProps } from '@sryoung-br/zrender/src/graphic/Path';
+import { ImageStyleProps } from '@sryoung-br/zrender/src/graphic/Image';
+import ZRText, { TextStyleProps } from '@sryoung-br/zrender/src/graphic/Text';
 import { Source } from '../data/Source';
 import Model from '../model/Model';
 import { DataStoreDimensionType } from '../data/DataStore';

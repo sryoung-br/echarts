@@ -19,7 +19,7 @@
 
 import {
     hasOwn, assert, isString, retrieve2, retrieve3, defaults, each, indexOf
-} from 'zrender/src/core/util';
+} from '@sryoung-br/zrender/src/core/util';
 import * as graphicUtil from '../../util/graphic';
 import { setDefaultStateProxy, toggleHoverEmphasis } from '../../util/states';
 import * as labelStyleHelper from '../../label/labelStyle';
@@ -44,7 +44,7 @@ import {
     OrdinalRawValue,
     InnerDecalObject
 } from '../../util/types';
-import Element, { ElementTextConfig } from 'zrender/src/Element';
+import Element, { ElementTextConfig } from '@sryoung-br/zrender/src/Element';
 import prepareCartesian2d from '../../coord/cartesian/prepareCustom';
 import prepareGeo from '../../coord/geo/prepareCustom';
 import prepareSingleAxis from '../../coord/single/prepareCustom';
@@ -53,11 +53,11 @@ import prepareCalendar from '../../coord/calendar/prepareCustom';
 import SeriesData, { DefaultDataVisual } from '../../data/SeriesData';
 import GlobalModel from '../../model/Global';
 import ExtensionAPI from '../../core/ExtensionAPI';
-import Displayable from 'zrender/src/graphic/Displayable';
+import Displayable from '@sryoung-br/zrender/src/graphic/Displayable';
 import Axis2D from '../../coord/cartesian/Axis2D';
-import { RectLike } from 'zrender/src/core/BoundingRect';
-import { PathStyleProps } from 'zrender/src/graphic/Path';
-import { TextStyleProps } from 'zrender/src/graphic/Text';
+import { RectLike } from '@sryoung-br/zrender/src/core/BoundingRect';
+import { PathStyleProps } from '@sryoung-br/zrender/src/graphic/Path';
+import { TextStyleProps } from '@sryoung-br/zrender/src/graphic/Text';
 import {
     convertToEC4StyleForCustomSerise,
     isEC4CompatibleStyle,
@@ -89,7 +89,7 @@ import CustomSeriesModel, {
     CustomRootElementOption,
     CustomSeriesOption
 } from './CustomSeries';
-import { PatternObject } from 'zrender/src/graphic/Pattern';
+import { PatternObject } from '@sryoung-br/zrender/src/graphic/Pattern';
 import {
     applyLeaveTransition,
     applyUpdateTransition,

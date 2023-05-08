@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import { createHashMap, HashMap, isObject, retrieve2 } from 'zrender/src/core/util';
+import { createHashMap, HashMap, isObject, retrieve2 } from '@sryoung-br/zrender/src/core/util';
 import { makeInner } from '../../util/model';
 import {
     DimensionDefinition, DimensionDefinitionLoose, DimensionIndex, DimensionName, DimensionType

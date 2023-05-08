@@ -18,13 +18,13 @@
 */
 
 import ComponentView from '../../view/Component';
-import { HashMap, createHashMap, each } from 'zrender/src/core/util';
+import { HashMap, createHashMap, each } from '@sryoung-br/zrender/src/core/util';
 import MarkerModel from './MarkerModel';
 import GlobalModel from '../../model/Global';
 import ExtensionAPI from '../../core/ExtensionAPI';
 import { makeInner } from '../../util/model';
 import SeriesModel from '../../model/Series';
-import Group from 'zrender/src/graphic/Group';
+import Group from '@sryoung-br/zrender/src/graphic/Group';
 import { enterBlur, leaveBlur } from '../../util/states';
 
 const inner = makeInner<{

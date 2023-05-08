@@ -18,7 +18,7 @@
 */
 
 import Single from './Single';
-import { bind } from 'zrender/src/core/util';
+import { bind } from '@sryoung-br/zrender/src/core/util';
 
 function dataToCoordSize(this: Single, dataSize: number | number[], dataItem: number | number[]) {
     // dataItem is necessary in log axis.

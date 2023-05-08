@@ -25,7 +25,7 @@ import SunburstSeriesModel from './SunburstSeries';
 import { Payload } from '../../util/types';
 import GlobalModel from '../../model/Global';
 import ExtensionAPI from '../../core/ExtensionAPI';
-import { extend } from 'zrender/src/core/util';
+import { extend } from '@sryoung-br/zrender/src/core/util';
 import { deprecateReplaceLog } from '../../util/log';
 import { EChartsExtensionInstallRegisters } from '../../extension';
 import { retrieveTargetInfo, aboveViewRoot } from '../helper/treeHelper';

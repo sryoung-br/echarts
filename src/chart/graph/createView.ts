@@ -20,11 +20,11 @@
 // FIXME Where to create the simple view coordinate system
 import View from '../../coord/View';
 import {getLayoutRect} from '../../util/layout';
-import * as bbox from 'zrender/src/core/bbox';
+import * as bbox from '@sryoung-br/zrender/src/core/bbox';
 import GraphSeriesModel, { GraphNodeItemOption } from './GraphSeries';
 import ExtensionAPI from '../../core/ExtensionAPI';
 import GlobalModel from '../../model/Global';
-import { extend } from 'zrender/src/core/util';
+import { extend } from '@sryoung-br/zrender/src/core/util';
 
 function getViewRect(seriesModel: GraphSeriesModel, api: ExtensionAPI, aspect: number) {
     const option = extend(seriesModel.getBoxLayoutParams(), {

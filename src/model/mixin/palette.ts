@@ -17,7 +17,7 @@
 * under the License.
 */
 
-import {Dictionary} from 'zrender/src/core/types';
+import {Dictionary} from '@sryoung-br/zrender/src/core/types';
 import {makeInner, normalizeToArray} from '../../util/model';
 import Model from '../Model';
 import {ZRColor, PaletteOptionMixin, DecalObject, AriaOptionMixin} from '../../util/types';

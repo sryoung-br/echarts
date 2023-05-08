@@ -30,10 +30,10 @@ import { ColorString, ECElement } from '../../util/types';
 import SeriesData from '../../data/SeriesData';
 import Sausage from '../../util/shape/sausage';
 import {createSymbol} from '../../util/symbol';
-import ZRImage from 'zrender/src/graphic/Image';
-import { extend, isFunction, isString, isNumber, each } from 'zrender/src/core/util';
+import ZRImage from '@sryoung-br/zrender/src/graphic/Image';
+import { extend, isFunction, isString, isNumber, each } from '@sryoung-br/zrender/src/core/util';
 import {setCommonECData} from '../../util/innerStore';
-import { normalizeArcAngles } from 'zrender/src/core/PathProxy';
+import { normalizeArcAngles } from '@sryoung-br/zrender/src/core/PathProxy';
 
 type ECSymbol = ReturnType<typeof createSymbol>;
 

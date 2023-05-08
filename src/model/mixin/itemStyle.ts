@@ -20,7 +20,7 @@
 import makeStyleMapper from './makeStyleMapper';
 import Model from '../Model';
 import { ItemStyleOption } from '../../util/types';
-import { PathStyleProps } from 'zrender/src/graphic/Path';
+import { PathStyleProps } from '@sryoung-br/zrender/src/graphic/Path';
 
 export const ITEM_STYLE_KEY_MAP = [
     ['fill', 'color'],

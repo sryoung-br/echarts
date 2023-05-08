@@ -17,9 +17,9 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
-import LinearGradient, { LinearGradientObject } from 'zrender/src/graphic/LinearGradient';
-import * as eventTool from 'zrender/src/core/event';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
+import LinearGradient, { LinearGradientObject } from '@sryoung-br/zrender/src/graphic/LinearGradient';
+import * as eventTool from '@sryoung-br/zrender/src/core/event';
 import VisualMapView from './VisualMapView';
 import * as graphic from '../../util/graphic';
 import * as numberUtil from '../../util/number';
@@ -30,13 +30,13 @@ import VisualMapModel from './VisualMapModel';
 import ContinuousModel from './ContinuousModel';
 import GlobalModel from '../../model/Global';
 import ExtensionAPI from '../../core/ExtensionAPI';
-import Element, { ElementEvent } from 'zrender/src/Element';
-import { TextVerticalAlign, TextAlign } from 'zrender/src/core/types';
+import Element, { ElementEvent } from '@sryoung-br/zrender/src/Element';
+import { TextVerticalAlign, TextAlign } from '@sryoung-br/zrender/src/core/types';
 import { ColorString, Payload } from '../../util/types';
-import { parsePercent } from 'zrender/src/contain/text';
+import { parsePercent } from '@sryoung-br/zrender/src/contain/text';
 import { setAsHighDownDispatcher } from '../../util/states';
 import { createSymbol } from '../../util/symbol';
-import ZRImage from 'zrender/src/graphic/Image';
+import ZRImage from '@sryoung-br/zrender/src/graphic/Image';
 import { ECData, getECData } from '../../util/innerStore';
 import { createTextStyle } from '../../label/labelStyle';
 import { findEventDispatcher } from '../../util/event';

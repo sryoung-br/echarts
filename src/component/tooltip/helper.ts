@@ -20,7 +20,7 @@
 import { TooltipOption } from './TooltipModel';
 import Model from '../../model/Model';
 import { toCamelCase } from '../../util/format';
-import env from 'zrender/src/core/env';
+import env from '@sryoung-br/zrender/src/core/env';
 
 /* global document */
 

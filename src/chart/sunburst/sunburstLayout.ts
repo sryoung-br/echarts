@@ -18,7 +18,7 @@
 */
 
 import { parsePercent } from '../../util/number';
-import * as zrUtil from 'zrender/src/core/util';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
 import GlobalModel from '../../model/Global';
 import ExtensionAPI from '../../core/ExtensionAPI';
 import SunburstSeriesModel, { SunburstSeriesOption } from './SunburstSeries';

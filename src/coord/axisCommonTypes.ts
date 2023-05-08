@@ -22,7 +22,7 @@ import {
     AreaStyleOption, ComponentOption, ColorString,
     AnimationOptionMixin, Dictionary, ScaleDataValue, CommonAxisPointerOption
 } from '../util/types';
-import { TextStyleProps } from 'zrender/src/graphic/Text';
+import { TextStyleProps } from '@sryoung-br/zrender/src/graphic/Text';
 
 
 export const AXIS_TYPES = {value: 1, category: 1, time: 1, log: 1} as const;

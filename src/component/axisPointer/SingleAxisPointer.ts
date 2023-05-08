@@ -22,7 +22,7 @@ import * as viewHelper from './viewHelper';
 import * as singleAxisHelper from '../../coord/single/singleAxisHelper';
 import SingleAxis from '../../coord/single/SingleAxis';
 import Single from '../../coord/single/Single';
-import { PathProps } from 'zrender/src/graphic/Path';
+import { PathProps } from '@sryoung-br/zrender/src/graphic/Path';
 import { ScaleDataValue, VerticalAlign, CommonAxisPointerOption } from '../../util/types';
 import ExtensionAPI from '../../core/ExtensionAPI';
 import SingleAxisModel from '../../coord/single/AxisModel';

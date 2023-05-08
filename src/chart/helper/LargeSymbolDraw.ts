@@ -24,13 +24,13 @@
 import * as graphic from '../../util/graphic';
 import {createSymbol} from '../../util/symbol';
 import SeriesData from '../../data/SeriesData';
-import { PathProps } from 'zrender/src/graphic/Path';
-import PathProxy from 'zrender/src/core/PathProxy';
+import { PathProps } from '@sryoung-br/zrender/src/graphic/Path';
+import PathProxy from '@sryoung-br/zrender/src/core/PathProxy';
 import SeriesModel from '../../model/Series';
 import { StageHandlerProgressParams } from '../../util/types';
 import { CoordinateSystemClipArea } from '../../coord/CoordinateSystem';
 import { getECData } from '../../util/innerStore';
-import Element from 'zrender/src/Element';
+import Element from '@sryoung-br/zrender/src/Element';
 
 const BOOST_SIZE_THRESHOLD = 4;
 

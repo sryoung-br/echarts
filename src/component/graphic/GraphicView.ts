@@ -17,10 +17,10 @@
 * under the License.
 */
 
-import * as zrUtil from 'zrender/src/core/util';
-import { TextStyleProps } from 'zrender/src/graphic/Text';
-import Displayable from 'zrender/src/graphic/Displayable';
-import Element from 'zrender/src/Element';
+import * as zrUtil from '@sryoung-br/zrender/src/core/util';
+import { TextStyleProps } from '@sryoung-br/zrender/src/graphic/Text';
+import Displayable from '@sryoung-br/zrender/src/graphic/Displayable';
+import Element from '@sryoung-br/zrender/src/Element';
 import * as modelUtil from '../../util/model';
 import * as graphicUtil from '../../util/graphic';
 import * as layoutUtil from '../../util/layout';

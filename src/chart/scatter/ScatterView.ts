@@ -28,7 +28,7 @@ import ExtensionAPI from '../../core/ExtensionAPI';
 import SeriesData from '../../data/SeriesData';
 import { TaskProgressParams } from '../../core/task';
 import type { StageHandlerProgressExecutor } from '../../util/types';
-import Element from 'zrender/src/Element';
+import Element from '@sryoung-br/zrender/src/Element';
 
 class ScatterView extends ChartView {
     static readonly type = 'scatter';
