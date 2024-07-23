@@ -32600,7 +32600,8 @@
       if (ticksLen === 1) {
         ticksCoords[0].coord = axisExtent[0];
         last = ticksCoords[1] = {
-          coord: axisExtent[1]
+          coord: axisExtent[1],
+          tickValue: ticksCoords[0].tickValue
         };
       } else {
         var crossLen = ticksCoords[ticksLen - 1].tickValue - ticksCoords[0].tickValue;
@@ -32611,7 +32612,8 @@
         var dataExtent = axis.scale.getExtent();
         diffSize = 1 + dataExtent[1] - ticksCoords[ticksLen - 1].tickValue;
         last = {
-          coord: ticksCoords[ticksLen - 1].coord + shift_1 * diffSize
+          coord: ticksCoords[ticksLen - 1].coord + shift_1 * diffSize,
+          tickValue: dataExtent[1] + 1
         };
         ticksCoords.push(last);
       }
@@ -35172,7 +35174,7 @@
       var y = rect.y;
       var width = rect.width;
       var height = rect.height;
-      var lineWidth = seriesModel.get(['lineStyle', 'width']) || 2;
+      var lineWidth = seriesModel.get(['lineStyle', 'width']) || 0;
       // Expand the clip path a bit to avoid the border is clipped and looks thinner
       x -= lineWidth / 2;
       y -= lineWidth / 2;
@@ -35721,9 +35723,9 @@
         this.group.add(symbolDraw.group);
         this._symbolDraw = symbolDraw;
         this._lineGroup = lineGroup;
+        this._changePolyState = bind(this._changePolyState, this);
       };
       LineView.prototype.render = function (seriesModel, ecModel, api) {
-        var _this = this;
         var coordSys = seriesModel.coordinateSystem;
         var group = this.group;
         var data = seriesModel.getData();
@@ -35913,9 +35915,7 @@
           getECData(polygon).seriesIndex = seriesModel.seriesIndex;
           toggleHoverEmphasis(polygon, focus, blurScope, emphasisDisabled);
         }
-        var changePolyState = function (toState) {
-          _this._changePolyState(toState);
-        };
+        var changePolyState = this._changePolyState;
         data.eachItemGraphicEl(function (el) {
           // Switch polyline / polygon state if element changed its state.
           el && (el.onHoverStateChange = changePolyState);
@@ -38085,7 +38085,7 @@
           var rA = r + item.len;
           var rA2 = rA * rA;
           // Use ellipse implicit function to calculate x
-          var dx = Math.sqrt((1 - Math.abs(dy * dy / rB2)) * rA2);
+          var dx = Math.sqrt(Math.abs((1 - dy * dy / rB2) * rA2));
           var newX = cx + (dx + item.len2) * dir;
           var deltaX = newX - item.label.x;
           var newTargetWidth = item.targetTextWidth - deltaX * dir;
@@ -39126,6 +39126,8 @@
       },
       splitLine: {
         show: true,
+        showMinLine: true,
+        showMaxLine: true,
         lineStyle: {
           color: ['#E0E6F1'],
           width: 1,
@@ -40921,6 +40923,8 @@
         var splitLineModel = axisModel.getModel('splitLine');
         var lineStyleModel = splitLineModel.getModel('lineStyle');
         var lineColors = lineStyleModel.get('color');
+        var showMinLine = splitLineModel.get('showMinLine') !== false;
+        var showMaxLine = splitLineModel.get('showMaxLine') !== false;
         lineColors = isArray(lineColors) ? lineColors : [lineColors];
         var gridRect = gridModel.coordinateSystem.getRect();
         var isHorizontal = axis.isHorizontal();
@@ -40933,6 +40937,10 @@
         var lineStyle = lineStyleModel.getLineStyle();
         for (var i = 0; i < ticksCoords.length; i++) {
           var tickCoord = axis.toGlobalCoord(ticksCoords[i].coord);
+          if (i === 0 && !showMinLine || i === ticksCoords.length - 1 && !showMaxLine) {
+            continue;
+          }
+          var tickValue = ticksCoords[i].tickValue;
           if (isHorizontal) {
             p1[0] = tickCoord;
             p1[1] = gridRect.y;
@@ -40945,9 +40953,8 @@
             p2[1] = tickCoord;
           }
           var colorIndex = lineCount++ % lineColors.length;
-          var tickValue = ticksCoords[i].tickValue;
           var line = new Line({
-            anid: tickValue != null ? 'line_' + ticksCoords[i].tickValue : null,
+            anid: tickValue != null ? 'line_' + tickValue : null,
             autoBatch: true,
             shape: {
               x1: p1[0],
@@ -41170,6 +41177,7 @@
         if (!labelModel.get('enabled')) {
           return;
         }
+        dom.setAttribute('role', 'img');
         if (labelModel.get('description')) {
           dom.setAttribute('aria-label', labelModel.get('description'));
           return;

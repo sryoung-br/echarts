@@ -76,6 +76,8 @@ export function wrapTreePathInfo<T = unknown>(node: TreeNode, seriesModel: Serie
     while (node) {
         const nodeDataIndex = node.dataIndex;
         treePathInfo.push({
+            nodeId: node.nodeId,
+            nodeType: node.nodeType,
             name: node.name,
             dataIndex: nodeDataIndex,
             value: seriesModel.getRawValue(nodeDataIndex) as T

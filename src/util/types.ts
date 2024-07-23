@@ -617,6 +617,8 @@ export type OptionDataItem =
 // Only for `SOURCE_FORMAT_KEYED_ORIGINAL`
 export type OptionDataItemObject<T> = {
     id?: OptionId;
+    nodeId?: string | number;
+    nodeType?: string;
     name?: OptionName;
     groupId?: OptionId;
     childGroupId?: OptionId;
